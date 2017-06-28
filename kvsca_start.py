@@ -77,8 +77,8 @@ for line in f:
     if len(devices) >= 1:
         for d in devices:
             print ("wifi")
-            print (adb.call("-s "+d+" adb tcpip 5555"))
-            print (adb.call("-s "+d+"shell ip -f inet addr show wlan0 | grep inet | cut -d ' ' -f 6 | cut -d '/' -f 1"))
+            #print (adb.call("-s "+d+" adb tcpip 5555"))
+            #print (adb.call("-s "+d+"shell ip -f inet addr show wlan0 | grep inet | cut -d ' ' -f 6 | cut -d '/' -f 1"))
             print ("tcp")
             print (adb.call("-s "+d+" reverse tcp:8000 tcp:8000"))
             print ("install")
@@ -112,38 +112,37 @@ for line in f:
 
     update_progress(count_line, conf_c, 100, int(i - ini))
     print(colored(" BENCHMARK DONE","green"),end="\n\n")
+
+    print(colored(" ANALISE STARTED", "blue"), end="\n\n")
+
+    onlydirs_after = []
+    if isdir("./" + date):
+        onlydirs_after = [f for f in listdir("./" + date) if isdir(join("./" + date, f))]
+
+    dirs = list(set(onlydirs_after) - set(onlydirs))
+
+    analiser = ["java", "-cp", "/Users/jaro/IdeaProjects/KSV_CA/target/kvsca-1.0-SNAPSHOT.jar",
+                "kvsca.analysis.Analysis"]
+
+    for d in dirs:
+        fi = [cwd + "/" + date + "/" + d + "/" + f for f in listdir("./" + date + "/" + d) if f.find(".log") != -1]
+        runnner = analiser + fi
+        pro = subprocess.Popen(runnner, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        out, err = pro.communicate()
+        print(str(out))
+        pro.wait()
+        type_file = open(cwd + "/" + date + "/" + d + "/type.conf", "w")
+        type_file.write("kvs.type = redis\n")
+        type_file.write("conf.array = " + ", ".join(line) + "\n")
+        type_file.close()
+
+        f = open(cwd + "/" + date + "/" + d + "/" + "report.txt", "w")
+        f.write(str(out))
+        f.close()
+
+    onlydirs = onlydirs_after
+    print(colored(" ANALISE DONE", "green"), end="\n\n")
     count_line += 1
-
-
-print(colored(" ANALISE STARTED", "blue"), end="\n\n")
-
-onlydirs_after = []
-if isdir("./" + date):
-    onlydirs_after = [f for f in listdir("./" + date) if isdir(join("./" + date, f))]
-
-dirs = list(set(onlydirs_after) - set(onlydirs))
-
-analiser = ["java", "-cp", "/Users/jaro/IdeaProjects/KSV_CA/target/kvsca-1.0-SNAPSHOT.jar",
-            "kvsca.analysis.Analysis"]
-
-for d in dirs:
-    fi = [cwd + "/" + date + "/" + d + "/" + f for f in listdir("./" + date + "/" + d) if f.find(".log") != -1]
-    runnner = analiser + fi
-    pro = subprocess.Popen(runnner, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    out, err = pro.communicate()
-    print(str(out))
-    pro.wait()
-    type_file = open(cwd + "/" + date + "/" + d + "/type.conf", "w")
-    type_file.write("kvs.type = redis\n")
-    type_file.write("conf.array = "+", ".join(line)+"\n")
-    type_file.close()
-
-    f = open(cwd + "/" + date + "/" + d + "/" + "report.txt", "w")
-    f.write(out)
-    f.close()
-
-onlydirs = onlydirs_after
-print(colored(" ANALISE DONE", "green"), end="\n\n")
 
 print(colored(" BENCHMARKs DONE WITH A TOTAL OF "+str(count_line-1)+" BENCHMARKs","green"),end="\n\n")
 
