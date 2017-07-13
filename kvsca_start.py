@@ -2,10 +2,16 @@ from adb import ADB
 import subprocess
 import time
 import os
+import sys
 from os import listdir
 from os.path import isdir, join
 from termcolor import colored
 import configparser
+
+
+JAR_PATH = "/Users/jaro/IdeaProjects/KSV_CA/target/kvsca-1.0-SNAPSHOT.jar"
+APK_PATH = "/Users/jaro/AndroidStudioProjects/TestKVS/app/build/outputs/apk/app-debug.apk"
+
 
 def update_progress(conf_count,max_conf,progress,elps_time):
 
@@ -28,21 +34,23 @@ FNULL = open(os.devnull, 'w')
 cwd = os.getcwd()
 date = time.strftime("%Y-%m-%d")
 onlydirs = []
-if(isdir("./"+date)):
-    onlydirs = [f for f in listdir("./"+date) if isdir(join("./"+date, f))]
+if(isdir("./benchmarks/"+date)):
+    onlydirs = [f for f in listdir("./benchmarks/"+date) if isdir(join("./benchmarks/"+date, f))]
 
-f = open("confs","r")
+print(onlydirs)
+
+f = open(str(sys.argv[1]),"r")
 count_line=1
 conf_c = sum(1 for line in f)
 
-f = open("confs", "r")
+f.seek(0, 0)
 
-print (colored(" BENCHMARKs STARTED","blue"),end="\n\n")
+print(colored(" BENCHMARKS STARTED", "blue"),end="\n\n")
 
 for line in f:
     print (colored(" BENCHMARK "+str(count_line)+" STARTED", "blue"),end="\n\n")
 
-    server = ["java", "-cp" ,"/Users/jaro/IdeaProjects/KSV_CA/target/kvsca-1.0-SNAPSHOT.jar", "kvsca.net.test.TestManager"]
+    server = ["java", "-cp" ,JAR_PATH, "kvsca.net.test.TestManager"]
     line = line.replace("\n", "")
     line = line.split(" ")
 
@@ -82,8 +90,9 @@ for line in f:
             print ("tcp")
             print (adb.call("-s "+d+" reverse tcp:8000 tcp:8000"))
             print ("install")
-            print (adb.call("-s "+d+" install -r -t /Users/jaro/AndroidStudioProjects/TestKVS/app/build/outputs/apk/app-debug.apk"))
+            print (adb.call("-s "+d+" install -r -t "+APK_PATH))
             print ("start")
+            print(adb.call(("-s " + d + " shell am force-stop com.example.jaro.testkvs")))
             print (adb.call(("-s "+d+" shell am start com.example.jaro.testkvs/.MainActivity")))
             print ("begin")
             print (adb.call("-s "+d+" shell input keyevent 21"))
@@ -91,7 +100,7 @@ for line in f:
 
 
     if len(devices) < len(line):
-        worker = ["java", "-cp" ,"/Users/jaro/IdeaProjects/KSV_CA/target/kvsca-1.0-SNAPSHOT.jar", "kvsca.net.test.TestWorker"]
+        worker = ["java", "-cp" ,JAR_PATH, "kvsca.net.test.TestWorker"]
         diff = len(line)-len(devices)
         for i in range(0,diff):
             subprocess.Popen(worker,stdout=FNULL,stderr=FNULL)
@@ -105,7 +114,7 @@ for line in f:
         if i-ini >= max_runtime/1000:
             break
 
-    while pro.poll() is None :
+    while pro.poll() is None:
         i = time.monotonic()
         update_progress(count_line, conf_c, 99, int(i - ini))
         time.sleep(1)
@@ -116,28 +125,27 @@ for line in f:
     print(colored(" ANALISE STARTED", "blue"), end="\n\n")
 
     onlydirs_after = []
-    if isdir("./" + date):
-        onlydirs_after = [f for f in listdir("./" + date) if isdir(join("./" + date, f))]
+    if isdir("./benchmarks/" + date):
+        onlydirs_after = [f for f in listdir("./benchmarks/" + date) if isdir(join("./benchmarks/" + date, f))]
 
     dirs = list(set(onlydirs_after) - set(onlydirs))
 
-    analiser = ["java", "-cp", "/Users/jaro/IdeaProjects/KSV_CA/target/kvsca-1.0-SNAPSHOT.jar",
+    analiser = ["java", "-cp", JAR_PATH,
                 "kvsca.analysis.Analysis"]
 
     for d in dirs:
-        fi = [cwd + "/" + date + "/" + d + "/" + f for f in listdir("./" + date + "/" + d) if f.find(".log") != -1]
+        fi = ["./benchmarks/" + date + "/" + d + "/" + f for f in listdir("./benchmarks/" + date + "/" + d) if f.find(".log") != -1]
+        print(listdir("./benchmarks/" + date + "/" + d))
         runnner = analiser + fi
         pro = subprocess.Popen(runnner, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         out, err = pro.communicate()
-        print(str(out))
         pro.wait()
-        type_file = open(cwd + "/" + date + "/" + d + "/type.conf", "w")
-        type_file.write("kvs.type = redis\n")
+        type_file = open(cwd + "/benchmarks/" + date + "/" + d + "/type.conf", "w")
+        type_file.write("kvs.type = tomp2p\n")
         type_file.write("conf.array = " + ", ".join(line) + "\n")
         type_file.close()
-
-        f = open(cwd + "/" + date + "/" + d + "/" + "report.txt", "w")
-        f.write(str(out))
+        f = open(cwd + "/benchmarks/" + date + "/" + d + "/" + "report.txt", "wb")
+        f.write(out)
         f.close()
 
     onlydirs = onlydirs_after

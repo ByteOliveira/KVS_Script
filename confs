@@ -1,13 +1,64 @@
-/Users/jaro/IdeaProjects/KSV_CA/conf/d1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d2.conf
-/Users/jaro/IdeaProjects/KSV_CA/conf/d1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d2.conf
-/Users/jaro/IdeaProjects/KSV_CA/conf/d1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d2.conf
-/Users/jaro/IdeaProjects/KSV_CA/conf/d2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d3.conf
-/Users/jaro/IdeaProjects/KSV_CA/conf/d3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d3.conf
-/Users/jaro/IdeaProjects/KSV_CA/conf/d3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d3.conf
-/Users/jaro/IdeaProjects/KSV_CA/conf/d4.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d4.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d4.conf
-/Users/jaro/IdeaProjects/KSV_CA/conf/d5.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d6.conf
-/Users/jaro/IdeaProjects/KSV_CA/conf/d5.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d6.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d1.conf
-/Users/jaro/IdeaProjects/KSV_CA/conf/d7.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d7.conf
-/Users/jaro/IdeaProjects/KSV_CA/conf/d7.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d7.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d7.conf
-/Users/jaro/IdeaProjects/KSV_CA/conf/d8.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d8.conf
-/Users/jaro/IdeaProjects/KSV_CA/conf/d8.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d8.conf /Users/jaro/IdeaProjects/KSV_CA/conf/d8.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/1.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/2.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/3.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/4.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/1.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/2.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/3.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/4.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/1.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/2.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/3.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/4.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/1.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/2.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/3.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/4.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/1.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/2.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/3.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/4.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/1.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/2.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/3.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/4.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/4.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/1.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/4.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/2.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/4.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/3.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/4.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/4.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/4.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/1.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/4.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/2.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/4.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/3.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/4.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/4.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/1.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/2.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/3.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/4.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/1.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/2.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/3.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/1.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/4.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/1.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/2.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/3.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/4.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/1.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/2.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/3.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/2.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/4.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/1.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/2.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/3.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/4.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/1.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/2.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/3.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/3.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/4.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/4.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/1.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/4.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/2.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/4.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/3.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/4.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/4.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/4.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/1.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/4.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/2.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/4.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/3.conf
+/Users/jaro/IdeaProjects/KSV_CA/conf/consumers/noChurn/4.conf /Users/jaro/IdeaProjects/KSV_CA/conf/producers/noChurn/4.conf
