@@ -1,6 +1,8 @@
 import itertools
 from fnmatch import fnmatch
 import os
+import random
+secure_random = random.SystemRandom()
 
 confs_consumers_dir ="/Users/jaro/IdeaProjects/KSV_CA/conf/consumers"
 
@@ -22,14 +24,27 @@ for path, subdirs, files in os.walk(confs_producers_dir):
         if fnmatch(name, "*.conf"):
             _confs_producers.append(os.path.join(path, name))
 
-obj = []
-obj.append(_confs_consumers)
-obj.append(_confs_consumers)
-obj.append(_confs_producers)
+obj = [_confs_consumers, _confs_consumers, _confs_producers]
 
 li = list(itertools.product(*obj))
-print(li)
+ff = []
 for line in li:
-    print(str(line[0])+" "+str(line[1])+" "+str(line[2]))
+    ff.append(" ".join(line))
+
+confs=[]
+
+size = 0
+if len(ff) < 100:
+    size = len(ff)
+else:
+    size = 100
+
+for i in range(0, 100):
+    bench = secure_random.choice(ff)
+    if bench not in confs:
+        confs.append(bench)
+    else:
+        i -= 1
 
 
+print("\n".join(confs))
