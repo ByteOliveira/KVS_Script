@@ -26,10 +26,13 @@ for path, subdirs, files in os.walk(confs_producers_dir):
 
 obj = [_confs_consumers, _confs_consumers, _confs_producers]
 
-li = list(itertools.product(*obj))
+######################################################################
+
+li = open("./workloads/redis/nP1C/4P1C","r")
 ff = []
 for line in li:
-    ff.append(" ".join(line))
+    ff.append(line)
+
 
 confs=[]
 
@@ -40,11 +43,12 @@ else:
     size = 100
 
 for i in range(0, 100):
-    bench = secure_random.choice(ff)
+    bench = ""
+    #bench = secure_random.choice(ff)
     if bench not in confs:
         confs.append(bench)
     else:
         i -= 1
 
 
-print("\n".join(confs))
+print("".join(confs))
