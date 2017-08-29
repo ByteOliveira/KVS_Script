@@ -78,7 +78,6 @@ for line in f:
 
     server += line
     pro = subprocess.Popen(server, stdout=FNULL, stderr=FNULL)
-
     time.sleep(3)
 
     devices = adb.devices()
@@ -100,11 +99,12 @@ for line in f:
             print("begin")
             print(adb.call("-s "+devices[d]+" shell input keyevent 21"))
 
+    workers = []
     if len(devices) < len(line):
         worker = ["java", "-cp", JAR_PATH, "kvsca.net.test.TestWorker"]
         diff = len(line)-len(devices)
         for i in range(0, diff):
-            subprocess.Popen(worker, stdout=FNULL, stderr=FNULL)
+            workers.append(subprocess.Popen(worker, stdout=FNULL, stderr=FNULL))
 
     ini = time.monotonic()
     i = 0
@@ -123,6 +123,8 @@ for line in f:
             pro.kill()
             print(colored(" BENCHMARK FAILED", "red"), end="\n\n")
             count_line -= 1
+            print("workers killed")
+            [w.kill() for w in workers]
             break
 
     if i-ini < max_runtime*1.5/1000:
@@ -148,7 +150,7 @@ for line in f:
             out, err = pro.communicate()
             pro.wait()
             type_file = open(cwd + "/benchmarks/" + date + "/" + d + "/type.conf", "w")
-            type_file.write("kvs.type = tomp2p\n")
+            type_file.write("kvs.type ="+config.get("dummy_section", "general.kvs")+"\n")
             type_file.write("conf.array = " + ", ".join(line) + "\n")
             type_file.close()
             f = open(cwd + "/benchmarks/" + date + "/" + d + "/" + "report.txt", "wb")

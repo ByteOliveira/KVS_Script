@@ -75,7 +75,7 @@ for b in bench_dirs:
             config.read_string(config_string)
 
             rate = int(config.get("dummy_section", "workload.rate"))
-            ratio = int(config.get("dummy_section", "workload.readRatio"))
+            ratio = float(config.get("dummy_section", "workload.readRatio"))
 
             if ratio == 1:
                 read_rates.append(str(rate))
@@ -109,6 +109,8 @@ for b in bench_dirs:
 all_pk = ["latency", "time lag", "version lag", "read errors"]
 all_pt = ["count", "avg", "stddev", "min", "max"]
 
+
+print(property_dic)
 
 for pk in all_pk:
     for pt in all_pt:

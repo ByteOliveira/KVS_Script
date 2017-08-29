@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee4128f2-cae6-4b9e-9367-180404f0814f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf_generator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/workload_confs_generator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen_reports.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plot_generator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate_conf_file.py" afterPath="$PROJECT_DIR$/generate_conf_file.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf_generator.py" afterPath="$PROJECT_DIR$/conf_generator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kvsca_start.py" afterPath="$PROJECT_DIR$/kvsca_start.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report_generator.py" afterPath="$PROJECT_DIR$/report_generator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workload_confs_generator.py" afterPath="$PROJECT_DIR$/workload_confs_generator.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,98 +18,96 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/adb$gen_reports.coverage" NAME="gen_reports Coverage Results" MODIFIED="1502384508427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adb$plot_generator.coverage" NAME="plot_generator Coverage Results" MODIFIED="1502726598960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/adb$adb.coverage" NAME="adb Coverage Results" MODIFIED="1494961846707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/adb$report_generator.coverage" NAME="report_generator Coverage Results" MODIFIED="1500047136397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/adb$workload_confs_generator.coverage" NAME="workload_confs_generator Coverage Results" MODIFIED="1501582629146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/adb$report_generator2.coverage" NAME="report_generator2 Coverage Results" MODIFIED="1500048977251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/adb$kvsca_start.coverage" NAME="kvsca_start Coverage Results" MODIFIED="1499955812086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adb$report_generator.coverage" NAME="report_generator Coverage Results" MODIFIED="1502302473127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adb$workload_confs_generator.coverage" NAME="workload_confs_generator Coverage Results" MODIFIED="1501610244599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adb$report_generator2.coverage" NAME="report_generator2 Coverage Results" MODIFIED="1502296743710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/adb$generate_conf_file.coverage" NAME="generate_conf_file Coverage Results" MODIFIED="1501082593204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/adb$conf_generator.coverage" NAME="conf_generator Coverage Results" MODIFIED="1500572250254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adb$kvsca_start.coverage" NAME="kvsca_start Coverage Results" MODIFIED="1501863312413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/adb$conf_generator.coverage" NAME="conf_generator Coverage Results" MODIFIED="1502726164206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="workload_confs_generator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workload_confs_generator.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="conf_generator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-35">
-              <caret line="487" column="60" lean-forward="false" selection-start-line="487" selection-start-column="60" selection-end-line="487" selection-end-column="60" />
+            <state relative-caret-position="2070">
+              <caret line="138" column="34" lean-forward="false" selection-start-line="138" selection-start-column="34" selection-end-line="138" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="report_generator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/report_generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1560">
+              <caret line="109" column="49" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="109" selection-end-column="49" />
               <folding>
-                <element signature="e#0#27#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1P1C" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workloads/tomp2p/1PnC/1P1C">
+      <file leaf-file-name="plot_generator.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plot_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="75" lean-forward="false" selection-start-line="0" selection-start-column="75" selection-end-line="0" selection-end-column="75" />
+            <state relative-caret-position="15">
+              <caret line="68" column="9" lean-forward="false" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conf-1.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-09/22:08:23/conf-1.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1P1C" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workloads/tomp2p/nP1C/1P1C">
+      <file leaf-file-name="gen_reports.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen_reports.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="report.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-09/22:08:23/report.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395460">
+              <caret line="26364" column="74" lean-forward="false" selection-start-line="26364" selection-start-column="74" selection-end-line="26364" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3P1C" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workloads/tomp2p/nP1C/3P1C">
+      <file leaf-file-name="kvsca_start.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kvsca_start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1P3C" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/workloads/tomp2p/1PnC/1P3C">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1P1C-Churn" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workloads/redis/1PnC/1P1C-Churn">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1P3C-Churn" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workloads/redis/1PnC/1P3C-Churn">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1P1C-Churn" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workloads/tomp2p/nP1C/1P1C-Churn">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="2160">
+              <caret line="152" column="81" lean-forward="false" selection-start-line="152" selection-start-column="81" selection-end-line="152" selection-end-column="81" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,16 +134,18 @@
       <find>churn</find>
       <find>,</find>
       <find>print (</find>
-      <find>,</find>
-      <find>print</find>
       <find>confs</find>
       <find>]</find>
       <find>_rate_1000</find>
+      <find>== H2</find>
+      <find>max</find>
+      <find>read errors</find>
+      <find>get_stats</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace>,</replace>
       <replace>print(</replace>
-      <replace>,</replace>
       <replace># print</replace>
     </replaceStrings>
   </component>
@@ -158,13 +161,15 @@
         <option value="$PROJECT_DIR$/conf4" />
         <option value="$PROJECT_DIR$/confs" />
         <option value="$PROJECT_DIR$/report_generator2.py" />
-        <option value="$PROJECT_DIR$/report_generator.py" />
-        <option value="$PROJECT_DIR$/kvsca_start.py" />
         <option value="$PROJECT_DIR$/generate_conf_file.py" />
-        <option value="$PROJECT_DIR$/conf_generator.py" />
         <option value="$PROJECT_DIR$/workloads/tomp2p/1PnC/1P1C" />
         <option value="$PROJECT_DIR$/workloads/redis/nP1C/3P1C" />
         <option value="$PROJECT_DIR$/workload_confs_generator.py" />
+        <option value="$PROJECT_DIR$/report_generator.py" />
+        <option value="$PROJECT_DIR$/gen_reports.py" />
+        <option value="$PROJECT_DIR$/conf_generator.py" />
+        <option value="$PROJECT_DIR$/kvsca_start.py" />
+        <option value="$PROJECT_DIR$/plot_generator.py" />
       </list>
     </option>
   </component>
@@ -193,6 +198,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -205,112 +212,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workloads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tomp2p" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nP1C" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workloads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tomp2p" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1PnC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workloads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nP1C" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workloads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1PnC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="configuration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,43 +228,7 @@
       <recent name="$PROJECT_DIR$/benchmarks" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.workload_confs_generator">
-    <configuration default="false" name="report_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="adb" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/report_generator.py" />
-      <option name="PARAMETERS" value="&gt; a.txt" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="generate_conf_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="adb" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate_conf_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.plot_generator">
     <configuration default="false" name="report_generator2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -398,7 +265,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="workload_confs_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="report_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -411,7 +278,43 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="adb" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/workload_confs_generator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/report_generator.py" />
+      <option name="PARAMETERS" value="2" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="plot_generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="adb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plot_generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="gen_reports" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="adb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gen_reports.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -631,19 +534,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.report_generator" />
-      <item index="1" class="java.lang.String" itemvalue="Python.generate_conf_file" />
-      <item index="2" class="java.lang.String" itemvalue="Python.report_generator2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.conf_generator" />
-      <item index="4" class="java.lang.String" itemvalue="Python.workload_confs_generator" />
+      <item index="0" class="java.lang.String" itemvalue="Python.report_generator2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.conf_generator" />
+      <item index="2" class="java.lang.String" itemvalue="Python.report_generator" />
+      <item index="3" class="java.lang.String" itemvalue="Python.plot_generator" />
+      <item index="4" class="java.lang.String" itemvalue="Python.gen_reports" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.workload_confs_generator" />
-        <item index="1" class="java.lang.String" itemvalue="Python.generate_conf_file" />
-        <item index="2" class="java.lang.String" itemvalue="Python.conf_generator" />
-        <item index="3" class="java.lang.String" itemvalue="Python.report_generator2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.report_generator" />
+        <item index="0" class="java.lang.String" itemvalue="Python.plot_generator" />
+        <item index="1" class="java.lang.String" itemvalue="Python.conf_generator" />
+        <item index="2" class="java.lang.String" itemvalue="Python.gen_reports" />
+        <item index="3" class="java.lang.String" itemvalue="Python.report_generator" />
+        <item index="4" class="java.lang.String" itemvalue="Python.report_generator2" />
       </list>
     </recent_temporary>
   </component>
@@ -679,36 +582,46 @@
       <option name="project" value="LOCAL" />
       <updated>1500471127495</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="config generator">
+      <created>1501583087646</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1501583087646</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="896" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27896994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30758226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43034825" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43034825" sideWeight="0.50572246" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43034825" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2375622" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2375622" sideWeight="0.49570817" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39925373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43034825" sideWeight="0.49427754" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39925373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -716,7 +629,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="generate confs list&#10;generate report" />
-    <option name="LAST_COMMIT_MESSAGE" value="generate confs list&#10;generate report" />
+    <MESSAGE value="config generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="config generator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -727,295 +641,146 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/benchmarks/2017-07-10/17:52:07/conf-0.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/nP1C/producer/Redis/conf_rate_10_churn_False_key_2.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/nP1C/consumer/Redis/conf_rate_10_churn_False_keysCount_2.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/nP1C/consumer/Redis/conf_rate_10_churn_False_keysCount_3.conf">
+    <entry file="file://$PROJECT_DIR$/configuration/nP1C/8P1C/kvsca.tomp2p.TomP2P/Rate_1_hz/Churn_True/d4.conf" />
+    <entry file="file://$PROJECT_DIR$/configuration/nP1C/8P1C/kvsca.tomp2p.TomP2P/Rate_1_hz/Churn_True/d2.conf" />
+    <entry file="file://$PROJECT_DIR$/configuration/nP1C/8P1C/kvsca.tomp2p.TomP2P/Rate_1_hz/Churn_True/d8.conf" />
+    <entry file="file://$PROJECT_DIR$/configuration/nP1C/8P1C/kvsca.tomp2p.TomP2P/Rate_1_hz/Churn_True/d1.conf" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-01/19:23:35/conf-1.conf" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-01/19:21:49/kvscaWorker-1.log" />
+    <entry file="file://$PROJECT_DIR$/conf_final">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/nP1C/consumer/Redis/conf_rate_10_churn_False_keysCount_4.conf">
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-01/19:23:35/type.conf" />
+    <entry file="file://$PROJECT_DIR$/kvsca-1.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/nP1C/consumer/Redis/conf_rate_10_churn_False_keysCount_5.conf">
+    <entry file="file://$PROJECT_DIR$/kvsca-2.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/nP1C/consumer/Redis/conf_rate_10_churn_False_keysCount_6.conf">
+    <entry file="file://$PROJECT_DIR$/kvsca-8.log" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-02/18:36:26/report.txt" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-02/18:41:55/kvscaWorker-1.log" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-02/18:41:55/kvscaWorker-0.log" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-02/18:41:55/report.txt" />
+    <entry file="file://$PROJECT_DIR$/configuration/nP1C/2P1C/kvsca.redis.JedisImp/Rate_1_hz/Churn_False/d2.conf" />
+    <entry file="file://$PROJECT_DIR$/configuration/nP1C/2P1C/kvsca.redis.JedisImp/Rate_100_hz/Churn_False/d2.conf" />
+    <entry file="file://$PROJECT_DIR$/configuration/nP1C/2P1C/kvsca.redis.JedisImp/Rate_100_hz/Churn_False/d1.conf" />
+    <entry file="file://$PROJECT_DIR$/configuration/nP1C/4P1C/kvsca.redis.JedisImp/Rate_100_hz/Churn_False/d1.conf" />
+    <entry file="file://$PROJECT_DIR$/configuration/nP1C/4P1C/kvsca.redis.JedisImp/Rate_100_hz/Churn_False/d2.conf" />
+    <entry file="file://$PROJECT_DIR$/configuration/nP1C/4P1C/kvsca.redis.JedisImp/Rate_100_hz/Churn_False/d3.conf" />
+    <entry file="file://$PROJECT_DIR$/configuration/nP1C/4P1C/kvsca.redis.JedisImp/Rate_100_hz/Churn_False/d4.conf" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-04/19:11:00/type.conf" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-04/19:11:00/report.txt" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-04/19:18:16/conf-0.conf" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-04/19:18:16/conf-1.conf" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-04/19:18:16/conf-3.conf" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-04/19:18:16/report.txt" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-04/19:18:16/type.conf" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-04/19:18:16/kvscaWorker-2.log" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-04/19:18:16/conf-2.conf" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-04/18:39:27/type.conf" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-04/19:01:55/type.conf" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-07/18:57:01/report.txt" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-07/19:13:20/report.txt" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-07/18:57:01/conf-1.conf" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-09/17:43:55/report.txt" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-09/17:43:55/conf-0.conf" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-09/17:43:55/conf-1.conf" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-09/18:11:39/conf-1.conf" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-09/18:11:39/type.conf" />
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-09/18:11:39/report.txt" />
+    <entry file="file://$PROJECT_DIR$/workload_confs_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="16" column="29" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/nP1C/consumer/Redis/conf_rate_10_churn_False_keysCount_7.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/nP1C/consumer/Redis/conf_rate_10_churn_False_keysCount_8.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/redis/nP1C/1PnC" />
-    <entry file="file://$PROJECT_DIR$/workloads/redis/nP1C/2PnC" />
-    <entry file="file://$PROJECT_DIR$/workloads/redis/nP1C/3PnC" />
     <entry file="file://$PROJECT_DIR$/report_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="42" />
+        <state relative-caret-position="1560">
+          <caret line="109" column="49" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="109" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/nP1C/producer/Redis/conf_rate_10_churn_False_key_1.conf">
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-09/22:17:18/report.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="325">
+          <caret line="3955" column="74" lean-forward="true" selection-start-line="3950" selection-start-column="0" selection-end-line="3955" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/tomp2p/nP1C/4P1C" />
-    <entry file="file://$PROJECT_DIR$/workloads/redis/nP1C/5P1C" />
-    <entry file="file://$PROJECT_DIR$/workloads/tomp2p/nP1C/2P1C" />
-    <entry file="file://$PROJECT_DIR$/configuration/1PnC/consumer/Redis/conf_rate_10_churn_False.conf">
+    <entry file="file://$PROJECT_DIR$/conf_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/1PnC/producer/Redis/conf_rate_10_churn_False.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/nP1C/consumer/Redis/conf_rate_10_churn_False_keysCount_1.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration/nP1C/producer/Redis/conf_rate_10_churn_False_key_0.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generate_conf_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="37" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/redis/1PnC/1P4C" />
-    <entry file="file://$PROJECT_DIR$/workloads/redis/1PnC/1P6C" />
-    <entry file="file://$PROJECT_DIR$/workloads/redis/1PnC/1P5C" />
-    <entry file="file://$PROJECT_DIR$/workloads/redis/nP1C/2P1C" />
-    <entry file="file://$PROJECT_DIR$/workloads/redis/1PnC/1P8C" />
-    <entry file="file://$PROJECT_DIR$/workloads/redis/1PnC/1P2C" />
-    <entry file="file://$PROJECT_DIR$/workloads/tomp2p/1PnC/1P2C" />
-    <entry file="file://$PROJECT_DIR$/workloads/tomp2p/1PnC/1P8C" />
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2016.3/python_stubs/-1665691696/itertools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="131" column="68" lean-forward="true" selection-start-line="131" selection-start-column="68" selection-end-line="131" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/redis/nP1C/4P1C" />
-    <entry file="file://$PROJECT_DIR$/workloads/tomp2p/1PnC/1P7C">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="2070">
+          <caret line="138" column="34" lean-forward="false" selection-start-line="138" selection-start-column="34" selection-end-line="138" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/redis/1PnC/1P7C">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/redis/nP1C/1P1C">
+    <entry file="file://$PROJECT_DIR$/plot_generator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+          <caret line="68" column="9" lean-forward="false" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-09/22:08:23/conf-1.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/redis/nP1C/7P1C">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
+    <entry file="file://$PROJECT_DIR$/gen_reports.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/benchmarks/2017-08-09/22:08:23/report.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395460">
+          <caret line="26364" column="74" lean-forward="false" selection-start-line="26364" selection-start-column="74" selection-end-line="26364" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kvsca_start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="146" column="66" lean-forward="false" selection-start-line="146" selection-start-column="51" selection-end-line="146" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/redis/1PnC/1P3C">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="62" lean-forward="false" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-920">
-          <caret line="87" column="30" lean-forward="false" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+        <state relative-caret-position="2160">
+          <caret line="152" column="81" lean-forward="false" selection-start-line="152" selection-start-column="81" selection-end-line="152" selection-end-column="81" />
           <folding>
-            <element signature="e#1#17#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/redis/nP1C/3P1C">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/tomp2p/nP1C/7P1C-Churn">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/tomp2p/nP1C/7P1C">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/redis/1PnC/1P1C">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workload_confs_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="487" column="60" lean-forward="false" selection-start-line="487" selection-start-column="60" selection-end-line="487" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/tomp2p/1PnC/1P1C">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="75" lean-forward="false" selection-start-line="0" selection-start-column="75" selection-end-line="0" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/tomp2p/nP1C/1P1C-Churn">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/redis/1PnC/1P1C-Churn">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/redis/1PnC/1P3C-Churn">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/tomp2p/nP1C/1P1C">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/tomp2p/nP1C/3P1C">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workloads/tomp2p/1PnC/1P3C">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

@@ -1,171 +1,148 @@
-
-import itertools
 import os
-
-freqs = [1, 10, 100]
 
 
 def freq_to_rate_per_milisec(hz):
     return int(1000/hz)
 
-rates = [freq_to_rate_per_milisec(f) for f in freqs]
-
-print(rates)
-
-kvs = ["kvsca.tomp2p.TomP2P", "kvsca.redis.JedisImp"]
-
-churn = [True, False]
-
-clients_max = 8
-
-producer_pos = [rates, kvs, churn]
-consumer_pos = [rates, kvs, churn]
-
-producer_confs = list(itertools.product(*producer_pos))
-consumer_confs = list(itertools.product(*consumer_pos))
-
-print(producer_confs)
-print(consumer_confs)
-
-general_conf = "general.deviceId=1\n" \
-        "workload.initialKey=0\n" \
-        "workload.duration=90000\n" \
-        "workload.numberOfKeys=1\n" \
-        "workload.readRatio=0\n"
-
-for pc in producer_confs:
-    if pc[1] == 'kvsca.tomp2p.TomP2P':
-        k = "TomP2P"
-    else:
-        k = "Redis"
-
-    if not os.path.exists("./configuration/1PnC/producer/"+k):
-        os.makedirs("./configuration/1PnC/producer/"+k)
-    if pc[2]:
-        churn_state = "true"
-    else:
-        churn_state = "false"
-
-    if (k == "Redis" and not pc[2]) or k == "TomP2P":
-        file = open("./configuration/1PnC/producer/" + k + "/conf_rate_" + str(pc[0]) + "_churn_" + str(pc[2]) + ".conf",
-                    "w")
-        file.write(general_conf)
-        file.write("general.churn.enable="+churn_state+'\n')
-        file.write("workload.rate="+str(pc[0])+"\n")
-        file.write("general.kvs="+pc[1])
-        file.close()
-
-general_conf = "general.deviceId=1\n" \
-        "workload.initialKey=0\n" \
-        "workload.duration=90000\n" \
-        "workload.numberOfKeys=1\n" \
-        "workload.readRatio=1\n"
-
-for cc in consumer_confs:
-    if cc[1] == 'kvsca.tomp2p.TomP2P':
-        k = "TomP2P"
-    else:
-        k = "Redis"
-
-    if not os.path.exists("./configuration/1PnC/consumer/"+k):
-        os.makedirs("./configuration/1PnC/consumer/"+k)
-    if cc[2]:
-        churn_state = "true"
-    else:
-        churn_state = "false"
-
-    if (k == "Redis" and not cc[2]) or k == "TomP2P":
-        file = open(
-            "./configuration/1PnC/consumer/" + k + "/conf_rate_" + str(cc[0]) + "_churn_" + str(cc[2]) + ".conf", "w")
-        file.write(general_conf)
-        file.write("general.churn.enable="+churn_state+'\n')
-        file.write("workload.rate="+str(cc[0])+"\n")
-        file.write("general.kvs="+cc[1])
-        file.close()
-
 #####################################################################################################################
 
-keys = [0, 1, 2, 3, 4, 5, 6, 7]
 
-keys_c = [1, 2, 3, 4, 5, 6, 7, 8]
+def gen_producer(d, deviceID, kvs, freq, churn, min_key, num_keys):
+    d += kvs + "/Rate_" + str(freq) + "_hz/Churn_"+str(churn)+"/"
 
-rates = [freq_to_rate_per_milisec(f) for f in freqs]
+    r = int(freq_to_rate_per_milisec(freq))
 
-print(rates)
+    conf = "general.deviceId="+str(deviceID)+"\n"+ \
+           "workload.initialKey="+str(min_key)+"\n"+ \
+           "workload.duration=90000\n"+ \
+           "workload.readRatio=0\n"\
+           "workload.numberOfKeys="+str(num_keys)+"\n"\
+           "general.churn.enable="+str(churn)+"\n"\
+           "workload.rate=" + str(r) + "\n"\
+           "general.kvs="+kvs+"\n"
 
-kvs = ["kvsca.tomp2p.TomP2P", "kvsca.redis.JedisImp"]
+    if not os.path.exists(d):
+        os.makedirs(d)
 
-churn = [True, False]
+    f = open(d + "d" + str(deviceID)+".conf", "w")
+    print(d + "d" + str(deviceID) + ".conf")
 
-clients_max = 8
+    f.write(conf)
+    f.close()
 
-producer_pos = [rates, kvs, churn, keys]
-consumer_pos = [rates, kvs, churn, keys_c]
 
-producer_confs = list(itertools.product(*producer_pos))
-consumer_confs = list(itertools.product(*consumer_pos))
+def gen_consumer(d, deviceID, kvs, freq, churn, min_key, num_keys):
+    d += kvs + "/Rate_" + str(freq) + "_hz/Churn_" + str(churn) + "/"
 
-print(producer_confs)
-print(consumer_confs)
+    r = int(freq_to_rate_per_milisec(freq))
 
-general_conf = "general.deviceId=1\n" \
-               "workload.duration=90000\n" \
-               "workload.numberOfKeys=1\n" \
-               "workload.readRatio=0\n"
+    conf = "general.deviceId=" + str(deviceID) + "\n" + \
+           "workload.initialKey=" + str(min_key) + "\n" + \
+           "workload.duration=90000\n" + \
+           "workload.readRatio=1\n" \
+           "workload.numberOfKeys=" + str(num_keys) + "\n" \
+           "general.churn.enable=" + str(churn) + "\n" \
+           "workload.rate=" + str(10) + "\n"\
+           "general.kvs="+kvs+"\n"
 
-for pc in producer_confs:
-    if pc[1] == 'kvsca.tomp2p.TomP2P':
-        k = "TomP2P"
-    else:
-        k = "Redis"
+    if not os.path.exists(d):
+        os.makedirs(d)
 
-    if not os.path.exists("./configuration/nP1C/producer/" + k):
-        os.makedirs("./configuration/nP1C/producer/" + k)
+    f = open(d + "d" + str(deviceID) + ".conf", "w")
 
-    if pc[2]:
-        churn_state = "true"
-    else:
-        churn_state = "false"
+    f.write(conf)
+    f.close()
 
-    if (k == "Redis" and not pc[2]) or k == "TomP2P":
-        file = open(
-            "./configuration/nP1C/producer/" + k + "/conf_rate_" + str(pc[0]) + "_churn_" + str(pc[2]) + "_key_" + str(
-                pc[3]) + ".conf",
-            "w")
-        file.write(general_conf)
-        file.write("general.churn.enable=" + churn_state + '\n')
-        file.write("workload.rate=" + str(pc[0]) + "\n")
-        file.write("general.kvs=" + pc[1]+"\n")
-        file.write("workload.initialKey="+str(pc[3]))
-        file.close()
+    if not os.path.exists(d):
+        os.makedirs(d)
 
-general_conf = "general.deviceId=1\n" \
-               "workload.initialKey=0\n" \
-               "workload.duration=90000\n" \
-               "workload.readRatio=1\n"
+    print(d + "d" + str(deviceID) + ".conf")
 
-for cc in consumer_confs:
-    if cc[1] == 'kvsca.tomp2p.TomP2P':
-        k = "TomP2P"
-    else:
-        k = "Redis"
+    f = open(d + "d" + str(deviceID) + ".conf", "w")
 
-    if not os.path.exists("./configuration/nP1C/consumer/" + k):
-        os.makedirs("./configuration/nP1C/consumer/" + k)
+    f.write(conf)
+    f.flush()
+    f.close()
 
-    if cc[2]:
-        churn_state = "true"
-    else:
-        churn_state = "false"
 
-    if (k == "Redis" and not cc[2]) or k == "TomP2P":
-        file = open("./configuration/nP1C/consumer/" + k + "/conf_rate_" + str(cc[0]) + "_churn_" + str(cc[2])
-                    + "_keysCount_" + str(cc[3]) + ".conf", "w")
-        file.write(general_conf)
-        file.write("general.churn.enable=" + churn_state + '\n')
-        file.write("workload.rate=" + str(cc[0]) + "\n")
-        file.write("general.kvs=" + cc[1]+"\n")
-        file.write("workload.numberOfKeys="+str(cc[3]))
-        file.close()
+def gen_consumerProducer(d, deviceID, kvs, freq, churn, min_key, num_keys,generator):
+    d += kvs + "/Rate_" + str(freq) + "_hz/Churn_" + str(churn) + "/"
 
+    conf = "general.deviceId=" + str(deviceID) + "\n" \
+           "workload.initialKey=" + str(min_key) + "\n" \
+           "workload.duration=90000\n" \
+           "workload.readRatio=0.5\n" \
+           "workload.numberOfKeys=" + str(num_keys) + "\n" \
+           "general.churn.enable=" + str(churn) + "\n" \
+           "workload.rate=" + str(freq_to_rate_per_milisec(freq)) + "\n"\
+           "general.kvs="+kvs+"\n"\
+           "general.generator="+generator+"\n"
+
+    if not os.path.exists(d):
+        os.makedirs(d)
+
+    print(d + "d" + str(deviceID) + ".conf")
+
+    f = open(d + "d" + str(deviceID) + ".conf", "w")
+
+    f.write(conf)
+    f.close()
+
+#######################################################################################################################
+
+freqs = [1, 10, 100]
+
+kvs_pos = ["kvsca.tomp2p.TomP2P", "kvsca.redis.JedisImp"]
+
+churn_pos = [True, False]
+
+clients_max = [2, 4]
+
+base_dir = "./configuration/"
+
+
+def gen_1PnC(d, kvs, freq, churn):
+    d += "1PnC/"
+
+    if kvs == "kvsca.redis.JedisImp" and churn:
+        return
+
+    for cm in clients_max:
+        d1 = d+"1P" + str(cm) + "C/"
+        gen_producer(d1, 1, kvs, freq, churn, 0, 1)
+        for i in range(2, cm+1):
+            gen_consumer(d1, i, kvs, freq, churn, 0, 1)
+
+
+def gen_nP1C(d, kvs, freq, churn):
+    d += "nP1C/"
+
+    if kvs == "kvsca.redis.JedisImp" and churn:
+        return
+
+    for cm in clients_max:
+        d1 = d + str(cm)+"P1C/"
+        gen_consumer(d1, 1, kvs, freq, churn, 0, cm-1)
+        for i in range(2, cm + 1):
+            gen_producer(d1, i, kvs, freq, churn, i-2, 1)
+
+
+def gen_nPC(d, kvs, freq, churn):
+    d += "nPC/"
+
+    if kvs == "kvsca.redis.JedisImp" and churn:
+        return
+
+    generator = "kvsca.SimpleWorkload_nPC"
+    for cm in clients_max:
+        d1 = d + str(cm) + "PC/"
+        for i in range(1, cm + 1):
+            gen_consumerProducer(d1, i, kvs, freq, churn, 1, cm,generator)
+
+for fs in freqs:
+    for k in kvs_pos:
+        for c in churn_pos:
+            gen_1PnC(base_dir, k, fs, c)
+            gen_nP1C(base_dir, k, fs, c)
+            gen_nPC(base_dir, k, fs, c)
 
