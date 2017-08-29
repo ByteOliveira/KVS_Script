@@ -1,0 +1,1818 @@
+== H1 ==
+WRITE deviceId=1 key=1 value='[0, 0, 0, 0]' interval=[1502316888.653190,1502316888.798170]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 1]' interval=[1502316888.802070,1502316888.811870]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 2]' interval=[1502316889.051630,1502316889.063940]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 3]' interval=[1502316889.152420,1502316889.165680]
+READ deviceId=2 key=1 value='[0, 0, 0, 3]' interval=[1502316889.351900,1502316889.365960] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 3]' interval=[1502316889.352450,1502316889.365760] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 4]' interval=[1502316889.452440,1502316889.461940]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 5]' interval=[1502316889.551810,1502316889.567940]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 6]' interval=[1502316889.652000,1502316889.663240]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 7]' interval=[1502316889.752050,1502316889.757620]
+READ deviceId=1 key=1 value='[0, 0, 0, 7]' interval=[1502316889.851730,1502316889.861800] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 7]' interval=[1502316889.851980,1502316889.864590] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 8]' interval=[1502316889.951740,1502316889.962930]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 9]' interval=[1502316890.051880,1502316890.061290]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 10]' interval=[1502316890.151430,1502316890.161160]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 11]' interval=[1502316890.351970,1502316890.361550]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 12]' interval=[1502316890.451410,1502316890.461380]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 13]' interval=[1502316890.751700,1502316890.761010]
+READ deviceId=2 key=1 value='[0, 0, 0, 13]' interval=[1502316890.852090,1502316890.862640] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 13]' interval=[1502316890.852350,1502316890.863210] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 13]' interval=[1502316890.952010,1502316890.961850] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 13]' interval=[1502316890.952100,1502316890.963690] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 14]' interval=[1502316891.051910,1502316891.060840]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 15]' interval=[1502316891.251670,1502316891.261820]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 16]' interval=[1502316891.351420,1502316891.361150]
+READ deviceId=1 key=1 value='[0, 0, 0, 16]' interval=[1502316891.551670,1502316891.561730] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 16]' interval=[1502316891.552130,1502316891.564900] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 17]' interval=[1502316891.751470,1502316891.763440]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 18]' interval=[1502316891.851670,1502316891.861540]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 19]' interval=[1502316892.252050,1502316892.260860]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 20]' interval=[1502316892.352400,1502316892.363130]
+READ deviceId=1 key=1 value='[0, 0, 0, 20]' interval=[1502316892.552410,1502316892.563490] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 20]' interval=[1502316892.552510,1502316892.565750] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 21]' interval=[1502316892.752130,1502316892.761160]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 22]' interval=[1502316892.851630,1502316892.861570]
+READ deviceId=2 key=1 value='[0, 0, 0, 22]' interval=[1502316892.951390,1502316892.960590] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 22]' interval=[1502316892.951930,1502316892.963710] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 23]' interval=[1502316893.151730,1502316893.161420]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 24]' interval=[1502316893.252090,1502316893.262370]
+READ deviceId=1 key=1 value='[0, 0, 0, 24]' interval=[1502316893.352090,1502316893.362090] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 24]' interval=[1502316893.352270,1502316893.363610] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 24]' interval=[1502316893.451600,1502316893.461440] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 24]' interval=[1502316893.452330,1502316893.464680] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 24]' interval=[1502316893.551710,1502316893.563630] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 24]' interval=[1502316893.552220,1502316893.562830] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 25]' interval=[1502316893.752400,1502316893.763480]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 26]' interval=[1502316893.852100,1502316893.867880]
+READ deviceId=1 key=1 value='[0, 0, 0, 26]' interval=[1502316893.951420,1502316893.966540] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 26]' interval=[1502316893.952050,1502316893.962900] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 27]' interval=[1502316894.052170,1502316894.061230]
+READ deviceId=1 key=1 value='[0, 0, 0, 27]' interval=[1502316894.151780,1502316894.164400] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 27]' interval=[1502316894.152070,1502316894.165840] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 28]' interval=[1502316894.252150,1502316894.260690]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 29]' interval=[1502316894.352380,1502316894.361170]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 30]' interval=[1502316894.451590,1502316894.462700]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 31]' interval=[1502316894.552230,1502316894.560550]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 32]' interval=[1502316894.751910,1502316894.762880]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 33]' interval=[1502316894.852120,1502316894.860730]
+READ deviceId=2 key=1 value='[0, 0, 0, 33]' interval=[1502316894.951350,1502316894.963560] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 34]' interval=[1502316895.151990,1502316895.161700]
+READ deviceId=1 key=1 value='[0, 0, 0, 34]' interval=[1502316895.351910,1502316895.365220] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 34]' interval=[1502316895.352230,1502316895.363000] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 34]' interval=[1502316895.551880,1502316895.561490] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 34]' interval=[1502316895.552120,1502316895.564170] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 35]' interval=[1502316895.652100,1502316895.662500]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 36]' interval=[1502316895.751860,1502316895.761740]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 37]' interval=[1502316895.852290,1502316895.860650]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 38]' interval=[1502316895.952220,1502316895.962530]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 39]' interval=[1502316896.052260,1502316896.060540]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 40]' interval=[1502316896.251930,1502316896.263460]
+READ deviceId=1 key=1 value='[0, 0, 0, 40]' interval=[1502316896.352080,1502316896.361860] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 40]' interval=[1502316896.352440,1502316896.362610] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 41]' interval=[1502316896.751750,1502316896.761270]
+READ deviceId=1 key=1 value='[0, 0, 0, 41]' interval=[1502316896.951280,1502316896.958210] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 41]' interval=[1502316896.952320,1502316896.962680] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 42]' interval=[1502316897.051750,1502316897.061390]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 43]' interval=[1502316897.151940,1502316897.163510]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 44]' interval=[1502316897.251650,1502316897.261260]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 45]' interval=[1502316897.351470,1502316897.361140]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 46]' interval=[1502316897.452590,1502316897.464740]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 47]' interval=[1502316897.552500,1502316897.562640]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 48]' interval=[1502316897.651840,1502316897.661710]
+READ deviceId=2 key=1 value='[0, 0, 0, 48]' interval=[1502316897.751640,1502316897.762100] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 48]' interval=[1502316897.752130,1502316897.762910] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 49]' interval=[1502316897.851870,1502316897.861470]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 50]' interval=[1502316897.951770,1502316897.961260]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 51]' interval=[1502316898.052020,1502316898.064880]
+READ deviceId=2 key=1 value='[0, 0, 0, 51]' interval=[1502316898.152110,1502316898.162740] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 51]' interval=[1502316898.152350,1502316898.164620] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 51]' interval=[1502316898.251540,1502316898.265680] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 51]' interval=[1502316898.252000,1502316898.264270] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 52]' interval=[1502316898.551900,1502316898.561370]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 53]' interval=[1502316898.651950,1502316898.663590]
+READ deviceId=1 key=1 value='[0, 0, 0, 53]' interval=[1502316898.952030,1502316898.962850] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 53]' interval=[1502316898.952240,1502316898.964310] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 53]' interval=[1502316899.051770,1502316899.062300] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 53]' interval=[1502316899.052210,1502316899.061210] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 54]' interval=[1502316899.151730,1502316899.161440]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 55]' interval=[1502316899.252020,1502316899.262460]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 56]' interval=[1502316899.351830,1502316899.361180]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 57]' interval=[1502316899.451490,1502316899.461760]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 58]' interval=[1502316899.551600,1502316899.563290]
+READ deviceId=2 key=1 value='[0, 0, 0, 58]' interval=[1502316899.651510,1502316899.666490] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 58]' interval=[1502316899.652020,1502316899.661240] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 59]' interval=[1502316899.752060,1502316899.761240]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 60]' interval=[1502316899.852220,1502316899.862330]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 61]' interval=[1502316899.954120,1502316899.963800]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 62]' interval=[1502316900.051330,1502316900.062840]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 63]' interval=[1502316900.152590,1502316900.167250]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 64]' interval=[1502316900.252140,1502316900.260610]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 65]' interval=[1502316900.352510,1502316900.363020]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 66]' interval=[1502316900.451890,1502316900.465310]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 67]' interval=[1502316900.551870,1502316900.561430]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 68]' interval=[1502316900.652500,1502316900.663390]
+READ deviceId=1 key=1 value='[0, 0, 0, 68]' interval=[1502316900.751770,1502316900.763780] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 68]' interval=[1502316900.751840,1502316900.765210] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 69]' interval=[1502316900.851560,1502316900.861260]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 70]' interval=[1502316900.951740,1502316900.963830]
+READ deviceId=1 key=1 value='[0, 0, 0, 70]' interval=[1502316901.052080,1502316901.063210] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 70]' interval=[1502316901.052380,1502316901.062570] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 70]' interval=[1502316901.151540,1502316901.161660] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 70]' interval=[1502316901.151850,1502316901.162490] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 70]' interval=[1502316901.252020,1502316901.264500] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 70]' interval=[1502316901.252310,1502316901.263730] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 71]' interval=[1502316901.352090,1502316901.363720]
+READ deviceId=1 key=1 value='[0, 0, 0, 71]' interval=[1502316901.452030,1502316901.463680] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 71]' interval=[1502316901.452080,1502316901.462290] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 72]' interval=[1502316901.552110,1502316901.560620]
+READ deviceId=1 key=1 value='[0, 0, 0, 72]' interval=[1502316901.751670,1502316901.761250] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 72]' interval=[1502316901.752340,1502316901.762120] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 73]' interval=[1502316901.851670,1502316901.861420]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 74]' interval=[1502316902.052420,1502316902.063340]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 75]' interval=[1502316902.152160,1502316902.161290]
+READ deviceId=2 key=1 value='[0, 0, 0, 75]' interval=[1502316902.352070,1502316902.362130] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 75]' interval=[1502316902.352180,1502316902.363790] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 76]' interval=[1502316902.452220,1502316902.465860]
+READ deviceId=2 key=1 value='[0, 0, 0, 76]' interval=[1502316902.551350,1502316902.561490] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 76]' interval=[1502316902.551680,1502316902.563950] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 76]' interval=[1502316902.651590,1502316902.662310] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 76]' interval=[1502316902.651840,1502316902.663140] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 77]' interval=[1502316902.751870,1502316902.761630]
+READ deviceId=2 key=1 value='[0, 0, 0, 77]' interval=[1502316902.951320,1502316902.961800] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 77]' interval=[1502316902.952280,1502316902.958830] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 78]' interval=[1502316903.152540,1502316903.165320]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 79]' interval=[1502316903.451570,1502316903.462960]
+READ deviceId=1 key=1 value='[0, 0, 0, 79]' interval=[1502316903.551610,1502316903.561710] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 79]' interval=[1502316903.552300,1502316903.558740] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 80]' interval=[1502316903.652340,1502316903.663520]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 81]' interval=[1502316903.751790,1502316903.763130]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 82]' interval=[1502316903.851730,1502316903.861540]
+READ deviceId=2 key=1 value='[0, 0, 0, 82]' interval=[1502316904.051580,1502316904.061960] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 82]' interval=[1502316904.051620,1502316904.063930] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 83]' interval=[1502316904.151420,1502316904.160990]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 84]' interval=[1502316904.351370,1502316904.362850]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 85]' interval=[1502316904.451710,1502316904.461180]
+READ deviceId=2 key=1 value='[0, 0, 0, 85]' interval=[1502316904.551320,1502316904.563290] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 85]' interval=[1502316904.551410,1502316904.561610] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 85]' interval=[1502316904.751500,1502316904.762030] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 85]' interval=[1502316904.751810,1502316904.761320] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 86]' interval=[1502316904.852220,1502316904.861590]
+READ deviceId=2 key=1 value='[0, 0, 0, 86]' interval=[1502316904.951820,1502316904.961840] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 86]' interval=[1502316904.952190,1502316904.965700] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 86]' interval=[1502316905.052260,1502316905.062210] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 86]' interval=[1502316905.053020,1502316905.063590] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 86]' interval=[1502316905.152090,1502316905.162400] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 86]' interval=[1502316905.153990,1502316905.170550] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 87]' interval=[1502316905.251420,1502316905.263470]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 88]' interval=[1502316905.352210,1502316905.360560]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 89]' interval=[1502316905.452150,1502316905.457710]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 90]' interval=[1502316905.551700,1502316905.563480]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 91]' interval=[1502316905.751900,1502316905.761180]
+READ deviceId=2 key=1 value='[0, 0, 0, 91]' interval=[1502316905.951600,1502316905.961880] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 91]' interval=[1502316905.957310,1502316905.964410] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 92]' interval=[1502316906.052180,1502316906.061760]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 93]' interval=[1502316906.252150,1502316906.261370]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 94]' interval=[1502316906.451340,1502316906.463850]
+READ deviceId=1 key=1 value='[0, 0, 0, 94]' interval=[1502316906.551480,1502316906.561500] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 94]' interval=[1502316906.551860,1502316906.557650] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 94]' interval=[1502316906.651950,1502316906.664510] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 94]' interval=[1502316906.652420,1502316906.668060] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 95]' interval=[1502316906.852070,1502316906.860990]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 96]' interval=[1502316906.951470,1502316906.961460]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 97]' interval=[1502316907.052420,1502316907.065440]
+READ deviceId=1 key=1 value='[0, 0, 0, 97]' interval=[1502316907.151830,1502316907.161950] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 97]' interval=[1502316907.152610,1502316907.171040] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 97]' interval=[1502316907.251540,1502316907.261580] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 97]' interval=[1502316907.251660,1502316907.264000] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 98]' interval=[1502316907.351870,1502316907.363590]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 99]' interval=[1502316907.453310,1502316907.465060]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 100]' interval=[1502316907.551770,1502316907.561230]
+READ deviceId=2 key=1 value='[0, 0, 0, 100]' interval=[1502316907.651800,1502316907.663160] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 100]' interval=[1502316907.651910,1502316907.664320] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 101]' interval=[1502316907.752010,1502316907.761650]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 102]' interval=[1502316907.852190,1502316907.861620]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 103]' interval=[1502316907.951430,1502316907.966640]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 104]' interval=[1502316908.052640,1502316908.063330]
+READ deviceId=2 key=1 value='[0, 0, 0, 104]' interval=[1502316908.251950,1502316908.262360] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 104]' interval=[1502316908.252410,1502316908.265560] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 105]' interval=[1502316908.452340,1502316908.463960]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 106]' interval=[1502316908.652410,1502316908.660980]
+READ deviceId=2 key=1 value='[0, 0, 0, 106]' interval=[1502316908.752210,1502316908.764410] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 106]' interval=[1502316908.752390,1502316908.761610] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 107]' interval=[1502316908.951900,1502316908.962280]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 108]' interval=[1502316909.051380,1502316909.061220]
+READ deviceId=1 key=1 value='[0, 0, 0, 108]' interval=[1502316909.151850,1502316909.163520] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 108]' interval=[1502316909.152390,1502316909.165600] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 109]' interval=[1502316909.252160,1502316909.261000]
+READ deviceId=1 key=1 value='[0, 0, 0, 109]' interval=[1502316909.351570,1502316909.361800] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 109]' interval=[1502316909.351960,1502316909.364450] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 109]' interval=[1502316909.452020,1502316909.462250] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 109]' interval=[1502316909.452660,1502316909.467040] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 110]' interval=[1502316909.552160,1502316909.561460]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 111]' interval=[1502316909.651870,1502316909.661730]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 112]' interval=[1502316909.752350,1502316909.762560]
+READ deviceId=2 key=1 value='[0, 0, 0, 112]' interval=[1502316909.951750,1502316909.963940] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 112]' interval=[1502316909.954100,1502316909.965460] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 112]' interval=[1502316910.051630,1502316910.063480] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 112]' interval=[1502316910.051690,1502316910.062230] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 113]' interval=[1502316910.152150,1502316910.161300]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 114]' interval=[1502316910.252100,1502316910.261500]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 115]' interval=[1502316910.351730,1502316910.363520]
+READ deviceId=2 key=1 value='[0, 0, 0, 115]' interval=[1502316910.451620,1502316910.462260] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 115]' interval=[1502316910.451840,1502316910.464900] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 116]' interval=[1502316910.552220,1502316910.563350]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 117]' interval=[1502316910.651920,1502316910.663780]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 118]' interval=[1502316910.752330,1502316910.761440]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 119]' interval=[1502316910.852080,1502316910.862240]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 120]' interval=[1502316911.051990,1502316911.060480]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 121]' interval=[1502316911.152150,1502316911.160630]
+READ deviceId=2 key=1 value='[0, 0, 0, 121]' interval=[1502316911.351990,1502316911.362210] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 121]' interval=[1502316911.352010,1502316911.361830] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, 121]' interval=[1502316911.551690,1502316911.561700] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, 121]' interval=[1502316911.552210,1502316911.557920] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, 122]' interval=[1502316911.752070,1502316911.861990]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 123]' interval=[1502316911.865100,1502316911.870570]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 124]' interval=[1502316911.952800,1502316911.960720]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 125]' interval=[1502316912.052100,1502316912.060190]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 126]' interval=[1502316912.151690,1502316912.163190]
+WRITE deviceId=1 key=1 value='[0, 0, 0, 127]' interval=[1502316912.251730,1502316912.261830]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -128]' interval=[1502316912.551750,1502316912.561720]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -127]' interval=[1502316912.651540,1502316912.661680]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -126]' interval=[1502316912.752520,1502316912.762870]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -125]' interval=[1502316912.851660,1502316912.861400]
+READ deviceId=2 key=1 value='[0, 0, 0, -125]' interval=[1502316912.951710,1502316912.963780] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -125]' interval=[1502316912.951830,1502316912.962150] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -125]' interval=[1502316913.051940,1502316913.062680] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -125]' interval=[1502316913.052310,1502316913.064750] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -125]' interval=[1502316913.151620,1502316913.165440] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -125]' interval=[1502316913.152350,1502316913.162090] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -124]' interval=[1502316913.251650,1502316913.261720]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -123]' interval=[1502316913.352110,1502316913.363020]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -122]' interval=[1502316913.552460,1502316913.563500]
+READ deviceId=2 key=1 value='[0, 0, 0, -122]' interval=[1502316913.651490,1502316913.661770] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -122]' interval=[1502316913.652140,1502316913.663550] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -122]' interval=[1502316913.752110,1502316913.761820] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -122]' interval=[1502316913.752220,1502316913.761690] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -121]' interval=[1502316913.852270,1502316913.861580]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -120]' interval=[1502316914.252270,1502316914.263660]
+READ deviceId=2 key=1 value='[0, 0, 0, -120]' interval=[1502316914.352160,1502316914.362350] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -120]' interval=[1502316914.352320,1502316914.361980] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -119]' interval=[1502316914.451680,1502316914.461930]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -118]' interval=[1502316914.552320,1502316914.566500]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -117]' interval=[1502316914.651590,1502316914.661260]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -116]' interval=[1502316914.852300,1502316914.863840]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -115]' interval=[1502316914.952120,1502316914.961640]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -114]' interval=[1502316915.051820,1502316915.060880]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -113]' interval=[1502316915.252130,1502316915.265810]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -112]' interval=[1502316915.351360,1502316915.361500]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -111]' interval=[1502316915.552370,1502316915.563410]
+READ deviceId=1 key=1 value='[0, 0, 0, -111]' interval=[1502316915.652220,1502316915.661450] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -111]' interval=[1502316915.652590,1502316915.664680] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -110]' interval=[1502316915.752060,1502316915.763710]
+READ deviceId=2 key=1 value='[0, 0, 0, -110]' interval=[1502316915.851270,1502316915.862030] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -110]' interval=[1502316915.851820,1502316915.861860] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -109]' interval=[1502316915.951650,1502316915.967710]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -108]' interval=[1502316916.052560,1502316916.065560]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -107]' interval=[1502316916.152200,1502316916.161050]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -106]' interval=[1502316916.251630,1502316916.261270]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -105]' interval=[1502316916.652140,1502316916.661740]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -104]' interval=[1502316916.752060,1502316916.760790]
+READ deviceId=2 key=1 value='[0, 0, 0, -104]' interval=[1502316916.851530,1502316916.864020] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -104]' interval=[1502316916.851710,1502316916.861870] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -103]' interval=[1502316916.952260,1502316916.962850]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -102]' interval=[1502316917.051840,1502316917.061970]
+READ deviceId=1 key=1 value='[0, 0, 0, -102]' interval=[1502316917.151590,1502316917.161950] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -102]' interval=[1502316917.151640,1502316917.163360] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -101]' interval=[1502316917.252490,1502316917.263230]
+READ deviceId=2 key=1 value='[0, 0, 0, -101]' interval=[1502316917.451620,1502316917.463960] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -101]' interval=[1502316917.451930,1502316917.464950] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -101]' interval=[1502316917.551830,1502316917.561910] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -101]' interval=[1502316917.552260,1502316917.564110] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -101]' interval=[1502316917.651230,1502316917.661520] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -101]' interval=[1502316917.651710,1502316917.661820] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -101]' interval=[1502316917.751780,1502316917.763580] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -101]' interval=[1502316917.752460,1502316917.763500] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -101]' interval=[1502316917.852020,1502316917.862780] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -101]' interval=[1502316917.852160,1502316917.864250] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -100]' interval=[1502316918.051350,1502316918.056900]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -99]' interval=[1502316918.351600,1502316918.361160]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -98]' interval=[1502316918.451710,1502316918.464290]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -97]' interval=[1502316918.552360,1502316918.563520]
+READ deviceId=2 key=1 value='[0, 0, 0, -97]' interval=[1502316918.651830,1502316918.660600] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -97]' interval=[1502316918.652240,1502316918.660760] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -96]' interval=[1502316918.851980,1502316918.861550]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -95]' interval=[1502316918.952250,1502316918.961390]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -94]' interval=[1502316919.051670,1502316919.063350]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -93]' interval=[1502316919.151590,1502316919.163320]
+READ deviceId=1 key=1 value='[0, 0, 0, -93]' interval=[1502316919.251940,1502316919.262620] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -93]' interval=[1502316919.252140,1502316919.267940] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -93]' interval=[1502316919.351500,1502316919.361850] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -93]' interval=[1502316919.352070,1502316919.363640] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -93]' interval=[1502316919.451310,1502316919.461680] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -93]' interval=[1502316919.451990,1502316919.465160] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -93]' interval=[1502316919.551910,1502316919.566130] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -93]' interval=[1502316919.552210,1502316919.564750] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -93]' interval=[1502316919.651740,1502316919.664140] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -93]' interval=[1502316919.652100,1502316919.661870] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -92]' interval=[1502316919.751580,1502316919.761290]
+READ deviceId=1 key=1 value='[0, 0, 0, -92]' interval=[1502316919.951380,1502316919.964350] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -92]' interval=[1502316919.952280,1502316919.964490] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -91]' interval=[1502316920.052200,1502316920.060700]
+READ deviceId=2 key=1 value='[0, 0, 0, -91]' interval=[1502316920.152180,1502316920.163970] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -91]' interval=[1502316920.152220,1502316920.161330] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -90]' interval=[1502316920.251910,1502316920.264070]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -89]' interval=[1502316920.351750,1502316920.361380]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -88]' interval=[1502316920.451970,1502316920.461340]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -87]' interval=[1502316920.552080,1502316920.562580]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -86]' interval=[1502316920.651900,1502316920.661520]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -85]' interval=[1502316920.752170,1502316920.769400]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -84]' interval=[1502316920.852090,1502316920.863700]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -83]' interval=[1502316920.952280,1502316920.960760]
+READ deviceId=1 key=1 value='[0, 0, 0, -83]' interval=[1502316921.051330,1502316921.057150] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -83]' interval=[1502316921.051630,1502316921.063640] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -83]' interval=[1502316921.151980,1502316921.163540] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -83]' interval=[1502316921.152400,1502316921.167670] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -83]' interval=[1502316921.252250,1502316921.262530] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -83]' interval=[1502316921.252430,1502316921.264540] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -82]' interval=[1502316921.552320,1502316921.560950]
+READ deviceId=2 key=1 value='[0, 0, 0, -82]' interval=[1502316921.651310,1502316921.659550] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -82]' interval=[1502316921.651640,1502316921.662050] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -82]' interval=[1502316921.751700,1502316921.763680] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -82]' interval=[1502316921.751830,1502316921.761850] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -81]' interval=[1502316921.852210,1502316921.860930]
+READ deviceId=1 key=1 value='[0, 0, 0, -81]' interval=[1502316921.951490,1502316921.961580] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -81]' interval=[1502316921.951750,1502316921.963610] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -80]' interval=[1502316922.151540,1502316922.160950]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -79]' interval=[1502316922.252390,1502316922.260990]
+READ deviceId=2 key=1 value='[0, 0, 0, -79]' interval=[1502316922.352060,1502316922.363430] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -79]' interval=[1502316922.352220,1502316922.363020] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -78]' interval=[1502316922.552350,1502316922.562310]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -77]' interval=[1502316922.751950,1502316922.761570]
+READ deviceId=2 key=1 value='[0, 0, 0, -77]' interval=[1502316922.952020,1502316922.962620] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -77]' interval=[1502316922.952300,1502316922.961600] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -76]' interval=[1502316923.051730,1502316923.061490]
+READ deviceId=2 key=1 value='[0, 0, 0, -76]' interval=[1502316923.151680,1502316923.163540] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -76]' interval=[1502316923.152020,1502316923.161260] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -75]' interval=[1502316923.251850,1502316923.263850]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -74]' interval=[1502316923.352310,1502316923.360970]
+READ deviceId=2 key=1 value='[0, 0, 0, -74]' interval=[1502316923.452060,1502316923.466890] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -74]' interval=[1502316923.452370,1502316923.461620] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -73]' interval=[1502316923.552070,1502316923.562710]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -72]' interval=[1502316923.652150,1502316923.663250]
+READ deviceId=2 key=1 value='[0, 0, 0, -72]' interval=[1502316923.851520,1502316923.861680] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -72]' interval=[1502316923.852040,1502316923.864050] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -71]' interval=[1502316923.952420,1502316923.961710]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -70]' interval=[1502316924.151800,1502316924.163550]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -69]' interval=[1502316924.252000,1502316924.260420]
+READ deviceId=1 key=1 value='[0, 0, 0, -69]' interval=[1502316924.351590,1502316924.361400] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -69]' interval=[1502316924.351650,1502316924.363840] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -69]' interval=[1502316924.651840,1502316924.661770] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -69]' interval=[1502316924.652230,1502316924.659780] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -69]' interval=[1502316924.752270,1502316924.763100] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -69]' interval=[1502316924.851360,1502316924.861640] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -69]' interval=[1502316924.851920,1502316924.861460] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -68]' interval=[1502316925.052060,1502316925.063750]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -67]' interval=[1502316925.352160,1502316925.362420]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -66]' interval=[1502316925.451920,1502316925.461590]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -65]' interval=[1502316925.552010,1502316925.561050]
+READ deviceId=1 key=1 value='[0, 0, 0, -65]' interval=[1502316925.651660,1502316925.663760] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -65]' interval=[1502316925.651710,1502316925.661780] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -64]' interval=[1502316925.752200,1502316925.760740]
+READ deviceId=2 key=1 value='[0, 0, 0, -64]' interval=[1502316925.851870,1502316925.864140] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -64]' interval=[1502316925.852130,1502316925.861060] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -63]' interval=[1502316926.051850,1502316926.061180]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -62]' interval=[1502316926.151740,1502316926.161240]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -61]' interval=[1502316926.251970,1502316926.263490]
+READ deviceId=2 key=1 value='[0, 0, 0, -61]' interval=[1502316926.451580,1502316926.463610] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -61]' interval=[1502316926.451860,1502316926.461660] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -61]' interval=[1502316926.551510,1502316926.563710] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -61]' interval=[1502316926.552280,1502316926.562340] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -60]' interval=[1502316926.751690,1502316926.761410]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -59]' interval=[1502316926.851630,1502316926.863100]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -58]' interval=[1502316926.951390,1502316926.960910]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -57]' interval=[1502316927.052160,1502316927.056690]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -56]' interval=[1502316927.152210,1502316927.162480]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -55]' interval=[1502316927.252230,1502316927.262950]
+READ deviceId=1 key=1 value='[0, 0, 0, -55]' interval=[1502316927.451540,1502316927.463240] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -55]' interval=[1502316927.451660,1502316927.461640] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -54]' interval=[1502316927.952180,1502316927.964700]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -53]' interval=[1502316928.051990,1502316928.066060]
+READ deviceId=1 key=1 value='[0, 0, 0, -53]' interval=[1502316928.151240,1502316928.161600] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -53]' interval=[1502316928.152090,1502316928.205440] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -52]' interval=[1502316928.252260,1502316928.262600]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -51]' interval=[1502316928.351700,1502316928.363580]
+READ deviceId=2 key=1 value='[0, 0, 0, -51]' interval=[1502316928.651610,1502316928.665150] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -51]' interval=[1502316928.652030,1502316928.662760] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -50]' interval=[1502316928.752410,1502316928.763220]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -49]' interval=[1502316928.851660,1502316928.861250]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -48]' interval=[1502316928.952140,1502316928.963430]
+READ deviceId=1 key=1 value='[0, 0, 0, -48]' interval=[1502316929.051690,1502316929.061590] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -48]' interval=[1502316929.051710,1502316929.062620] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -48]' interval=[1502316930.052000,1502316930.063360] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -48]' interval=[1502316930.052040,1502316930.062290] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -47]' interval=[1502316930.152040,1502316930.163550]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -46]' interval=[1502316930.252230,1502316930.261900]
+READ deviceId=2 key=1 value='[0, 0, 0, -46]' interval=[1502316930.351420,1502316930.361660] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -46]' interval=[1502316930.352280,1502316930.361100] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -46]' interval=[1502316930.551250,1502316930.561220] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -46]' interval=[1502316930.552090,1502316930.562100] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -45]' interval=[1502316930.752000,1502316930.763870]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -44]' interval=[1502316930.951810,1502316930.961240]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -43]' interval=[1502316931.151830,1502316931.163160]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -42]' interval=[1502316931.251450,1502316931.261160]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -41]' interval=[1502316931.351410,1502316931.362900]
+READ deviceId=1 key=1 value='[0, 0, 0, -41]' interval=[1502316931.451310,1502316931.461330] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -41]' interval=[1502316931.451940,1502316931.461850] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -41]' interval=[1502316931.551520,1502316931.561870] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -41]' interval=[1502316931.551660,1502316931.562330] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -41]' interval=[1502316931.851710,1502316931.861820] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -41]' interval=[1502316931.851760,1502316931.861840] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -40]' interval=[1502316931.952500,1502316931.965030]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -39]' interval=[1502316932.051330,1502316932.061360]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -38]' interval=[1502316932.151970,1502316932.162860]
+READ deviceId=2 key=1 value='[0, 0, 0, -38]' interval=[1502316932.251790,1502316932.264810] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -38]' interval=[1502316932.252420,1502316932.268630] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -37]' interval=[1502316932.351970,1502316932.365930]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -36]' interval=[1502316932.451320,1502316932.461340]
+READ deviceId=1 key=1 value='[0, 0, 0, -36]' interval=[1502316932.551670,1502316932.564300] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -36]' interval=[1502316932.552160,1502316932.564210] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -35]' interval=[1502316932.651500,1502316932.660910]
+READ deviceId=2 key=1 value='[0, 0, 0, -35]' interval=[1502316932.751510,1502316932.761550] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -35]' interval=[1502316932.752400,1502316932.763230] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -34]' interval=[1502316932.851410,1502316932.863250]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -33]' interval=[1502316932.951770,1502316932.961410]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -32]' interval=[1502316933.051760,1502316933.061160]
+READ deviceId=1 key=1 value='[0, 0, 0, -32]' interval=[1502316933.151400,1502316933.163310] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -32]' interval=[1502316933.151690,1502316933.163670] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -32]' interval=[1502316933.251610,1502316933.261610] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -32]' interval=[1502316933.252110,1502316933.262280] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -32]' interval=[1502316933.352070,1502316933.360960] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -32]' interval=[1502316933.352820,1502316933.361830] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -31]' interval=[1502316933.452390,1502316933.462480]
+READ deviceId=2 key=1 value='[0, 0, 0, -31]' interval=[1502316933.551270,1502316933.561710] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -31]' interval=[1502316933.551780,1502316933.561970] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -31]' interval=[1502316933.652280,1502316933.661100] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -31]' interval=[1502316933.652320,1502316933.662250] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -30]' interval=[1502316933.751690,1502316933.763280]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -29]' interval=[1502316933.851980,1502316933.860610]
+READ deviceId=2 key=1 value='[0, 0, 0, -29]' interval=[1502316933.951440,1502316933.961990] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -29]' interval=[1502316933.952000,1502316933.961270] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -28]' interval=[1502316934.051660,1502316934.063310]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -27]' interval=[1502316934.151590,1502316934.161210]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -26]' interval=[1502316934.252070,1502316934.261310]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -25]' interval=[1502316934.452390,1502316934.460880]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -24]' interval=[1502316934.652260,1502316934.662720]
+READ deviceId=2 key=1 value='[0, 0, 0, -24]' interval=[1502316934.752050,1502316934.764690] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -24]' interval=[1502316934.752320,1502316934.761040] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -23]' interval=[1502316934.852290,1502316934.860650]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -22]' interval=[1502316934.952370,1502316934.962660]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -21]' interval=[1502316935.052000,1502316935.060950]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -20]' interval=[1502316935.152340,1502316935.163540]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -19]' interval=[1502316935.252210,1502316935.262680]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -18]' interval=[1502316935.351570,1502316935.360970]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -17]' interval=[1502316935.452490,1502316935.461030]
+READ deviceId=1 key=1 value='[0, 0, 0, -17]' interval=[1502316935.551320,1502316935.563440] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -17]' interval=[1502316935.552400,1502316935.564410] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -16]' interval=[1502316935.651750,1502316935.661190]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -15]' interval=[1502316935.751730,1502316935.761380]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -14]' interval=[1502316935.851540,1502316935.862810]
+READ deviceId=1 key=1 value='[0, 0, 0, -14]' interval=[1502316935.952340,1502316935.960770] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -14]' interval=[1502316935.952370,1502316935.962550] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -13]' interval=[1502316936.051900,1502316936.061310]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -12]' interval=[1502316936.251860,1502316936.261670]
+READ deviceId=2 key=1 value='[0, 0, 0, -12]' interval=[1502316936.351720,1502316936.365920] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 0, -12]' interval=[1502316936.352160,1502316936.363290] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -11]' interval=[1502316936.452240,1502316936.465390]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -10]' interval=[1502316936.551890,1502316936.565050]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -9]' interval=[1502316936.651950,1502316936.660940]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -8]' interval=[1502316936.752540,1502316936.765250]
+READ deviceId=1 key=1 value='[0, 0, 0, -8]' interval=[1502316937.051310,1502316937.063250] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -8]' interval=[1502316937.051650,1502316937.063780] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -7]' interval=[1502316937.151850,1502316937.161290]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -6]' interval=[1502316937.352480,1502316937.365190]
+READ deviceId=1 key=1 value='[0, 0, 0, -6]' interval=[1502316937.551980,1502316937.561380] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 0, -6]' interval=[1502316937.552190,1502316937.562040] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 0, -5]' interval=[1502316937.651590,1502316937.663490]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -4]' interval=[1502316937.752260,1502316937.760570]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -3]' interval=[1502316937.851910,1502316937.860790]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -2]' interval=[1502316938.052010,1502316938.062440]
+WRITE deviceId=1 key=1 value='[0, 0, 0, -1]' interval=[1502316938.252150,1502316938.262710]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 0]' interval=[1502316938.351670,1502316938.361090]
+READ deviceId=1 key=1 value='[0, 0, 1, 0]' interval=[1502316938.451410,1502316938.461540] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 0]' interval=[1502316938.451650,1502316938.462040] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 0]' interval=[1502316938.551430,1502316938.563450] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 0]' interval=[1502316938.551860,1502316938.565460] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 1]' interval=[1502316938.751590,1502316938.761230]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 2]' interval=[1502316938.851680,1502316938.862970]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 3]' interval=[1502316938.951630,1502316938.960920]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 4]' interval=[1502316939.152260,1502316939.159450]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 5]' interval=[1502316939.251970,1502316939.261340]
+READ deviceId=2 key=1 value='[0, 0, 1, 5]' interval=[1502316939.351330,1502316939.361720] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 5]' interval=[1502316939.351660,1502316939.361710] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 6]' interval=[1502316939.552220,1502316939.562750]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 7]' interval=[1502316939.651840,1502316939.661000]
+READ deviceId=1 key=1 value='[0, 0, 1, 7]' interval=[1502316939.851870,1502316939.861650] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 7]' interval=[1502316939.851920,1502316939.862200] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 8]' interval=[1502316940.051730,1502316940.063960]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 9]' interval=[1502316940.151840,1502316940.161590]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 10]' interval=[1502316940.252310,1502316940.261260]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 11]' interval=[1502316940.352060,1502316940.362540]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 12]' interval=[1502316940.451990,1502316940.461040]
+READ deviceId=2 key=1 value='[0, 0, 1, 12]' interval=[1502316940.551680,1502316940.567730] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 12]' interval=[1502316940.552220,1502316940.563530] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 13]' interval=[1502316940.652090,1502316940.663500]
+READ deviceId=2 key=1 value='[0, 0, 1, 13]' interval=[1502316940.751960,1502316940.771950] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 13]' interval=[1502316940.752070,1502316940.767290] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 14]' interval=[1502316940.952500,1502316940.967250]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 15]' interval=[1502316941.051480,1502316941.060760]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 16]' interval=[1502316941.152300,1502316941.160550]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 17]' interval=[1502316941.251760,1502316941.264790]
+READ deviceId=2 key=1 value='[0, 0, 1, 17]' interval=[1502316941.352400,1502316941.362830] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 18]' interval=[1502316941.451610,1502316941.461150]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 19]' interval=[1502316941.651910,1502316941.661910]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 20]' interval=[1502316941.751520,1502316941.761380]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 21]' interval=[1502316941.851760,1502316941.863620]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 22]' interval=[1502316941.952330,1502316941.963310]
+READ deviceId=1 key=1 value='[0, 0, 1, 22]' interval=[1502316942.051900,1502316942.062380] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 22]' interval=[1502316942.052290,1502316942.062060] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 22]' interval=[1502316942.151530,1502316942.163620] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 22]' interval=[1502316942.151770,1502316942.160040] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 22]' interval=[1502316942.251540,1502316942.261760] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 22]' interval=[1502316942.255590,1502316942.265530] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 23]' interval=[1502316942.452370,1502316942.462710]
+READ deviceId=1 key=1 value='[0, 0, 1, 23]' interval=[1502316942.551980,1502316942.562060] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 23]' interval=[1502316942.552430,1502316942.562480] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 24]' interval=[1502316942.651540,1502316942.661310]
+READ deviceId=1 key=1 value='[0, 0, 1, 24]' interval=[1502316942.751870,1502316942.764680] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 24]' interval=[1502316942.755450,1502316942.764160] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 25]' interval=[1502316942.852410,1502316942.863800]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 26]' interval=[1502316942.952420,1502316942.960430]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 27]' interval=[1502316943.151520,1502316943.160720]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 28]' interval=[1502316943.252080,1502316943.261390]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 29]' interval=[1502316943.351980,1502316943.363680]
+READ deviceId=2 key=1 value='[0, 0, 1, 29]' interval=[1502316943.451690,1502316943.462030] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 29]' interval=[1502316943.452360,1502316943.461300] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 30]' interval=[1502316943.551620,1502316943.562110]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 31]' interval=[1502316943.752010,1502316943.760620]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 32]' interval=[1502316943.852410,1502316943.864840]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 33]' interval=[1502316943.951540,1502316943.962840]
+READ deviceId=1 key=1 value='[0, 0, 1, 33]' interval=[1502316944.051360,1502316944.062360] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 33]' interval=[1502316944.052420,1502316944.062330] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 34]' interval=[1502316944.151580,1502316944.161570]
+READ deviceId=2 key=1 value='[0, 0, 1, 34]' interval=[1502316944.451560,1502316944.462170] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 34]' interval=[1502316944.451990,1502316944.462240] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 34]' interval=[1502316944.551450,1502316944.564790] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 34]' interval=[1502316944.551730,1502316944.563800] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 34]' interval=[1502316944.651560,1502316944.661840] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 34]' interval=[1502316944.651810,1502316944.661760] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 34]' interval=[1502316944.751550,1502316944.761760] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 34]' interval=[1502316944.752210,1502316944.768160] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 35]' interval=[1502316944.952630,1502316944.963430]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 36]' interval=[1502316945.051700,1502316945.065030]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 37]' interval=[1502316945.151470,1502316945.158860]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 38]' interval=[1502316945.352300,1502316945.361590]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 39]' interval=[1502316945.551540,1502316945.561530]
+READ deviceId=2 key=1 value='[0, 0, 1, 39]' interval=[1502316945.652240,1502316945.662690] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 39]' interval=[1502316945.652300,1502316945.663980] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 40]' interval=[1502316945.851810,1502316945.861580]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 41]' interval=[1502316946.051490,1502316946.064300]
+READ deviceId=2 key=1 value='[0, 0, 1, 41]' interval=[1502316946.151620,1502316946.161760] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 41]' interval=[1502316946.151770,1502316946.162030] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 42]' interval=[1502316946.352490,1502316946.365280]
+READ deviceId=2 key=1 value='[0, 0, 1, 42]' interval=[1502316946.451820,1502316946.461740] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 42]' interval=[1502316946.451910,1502316946.462020] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 43]' interval=[1502316946.551290,1502316946.562940]
+READ deviceId=1 key=1 value='[0, 0, 1, 43]' interval=[1502316946.651930,1502316946.663360] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 43]' interval=[1502316946.652090,1502316946.664040] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 44]' interval=[1502316946.851980,1502316946.861660]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 45]' interval=[1502316946.951340,1502316946.963280]
+READ deviceId=1 key=1 value='[0, 0, 1, 45]' interval=[1502316947.051660,1502316947.062000] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 45]' interval=[1502316947.051720,1502316947.061590] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 46]' interval=[1502316947.152510,1502316947.163290]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 47]' interval=[1502316947.251870,1502316947.263730]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 48]' interval=[1502316947.352330,1502316947.361430]
+READ deviceId=1 key=1 value='[0, 0, 1, 48]' interval=[1502316947.451810,1502316947.462040] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 48]' interval=[1502316947.451820,1502316947.462340] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 49]' interval=[1502316947.551300,1502316947.563360]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 50]' interval=[1502316947.651860,1502316947.661660]
+READ deviceId=2 key=1 value='[0, 0, 1, 50]' interval=[1502316947.751610,1502316947.765760] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 50]' interval=[1502316947.752280,1502316947.761460] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 51]' interval=[1502316947.851950,1502316947.863680]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 52]' interval=[1502316947.952370,1502316947.961140]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 53]' interval=[1502316948.252060,1502316948.260930]
+READ deviceId=2 key=1 value='[0, 0, 1, 53]' interval=[1502316948.352270,1502316948.362760] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 53]' interval=[1502316948.352400,1502316948.361680] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 54]' interval=[1502316948.452260,1502316948.462690]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 55]' interval=[1502316948.552200,1502316948.563350]
+READ deviceId=1 key=1 value='[0, 0, 1, 55]' interval=[1502316948.751410,1502316948.763510] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 55]' interval=[1502316948.752190,1502316948.766800] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 56]' interval=[1502316948.851760,1502316948.863350]
+READ deviceId=2 key=1 value='[0, 0, 1, 56]' interval=[1502316948.951550,1502316948.961970] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 56]' interval=[1502316948.951950,1502316948.961280] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 56]' interval=[1502316949.051860,1502316949.067200] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 56]' interval=[1502316949.052060,1502316949.067400] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 57]' interval=[1502316949.251840,1502316949.263370]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 58]' interval=[1502316949.351870,1502316949.367860]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 59]' interval=[1502316949.552460,1502316949.563600]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 60]' interval=[1502316949.751380,1502316949.761270]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 61]' interval=[1502316949.952130,1502316949.963860]
+READ deviceId=2 key=1 value='[0, 0, 1, 61]' interval=[1502316950.051590,1502316950.061930] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 61]' interval=[1502316950.053380,1502316950.064840] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 62]' interval=[1502316950.152400,1502316950.163360]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 63]' interval=[1502316950.252130,1502316950.262990]
+READ deviceId=1 key=1 value='[0, 0, 1, 63]' interval=[1502316950.351810,1502316950.361840] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 63]' interval=[1502316950.352010,1502316950.362190] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 63]' interval=[1502316950.452130,1502316950.462420] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 63]' interval=[1502316950.452170,1502316950.461870] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 63]' interval=[1502316950.551880,1502316950.565900] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 63]' interval=[1502316950.552120,1502316950.563950] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 64]' interval=[1502316950.652010,1502316950.660800]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 65]' interval=[1502316950.752340,1502316950.761130]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 66]' interval=[1502316950.851390,1502316950.862610]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 67]' interval=[1502316950.952000,1502316950.961580]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 68]' interval=[1502316951.053400,1502316951.063760]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 69]' interval=[1502316951.152240,1502316951.162630]
+READ deviceId=2 key=1 value='[0, 0, 1, 69]' interval=[1502316951.251560,1502316951.261820] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 69]' interval=[1502316951.251880,1502316951.262190] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 70]' interval=[1502316951.351870,1502316951.361330]
+READ deviceId=1 key=1 value='[0, 0, 1, 70]' interval=[1502316951.652150,1502316951.660950] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 70]' interval=[1502316951.652390,1502316951.662430] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 71]' interval=[1502316951.752270,1502316951.763710]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 72]' interval=[1502316951.852230,1502316951.860820]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 73]' interval=[1502316951.952400,1502316951.962920]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 74]' interval=[1502316952.052760,1502316952.073470]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 75]' interval=[1502316952.151590,1502316952.161370]
+READ deviceId=1 key=1 value='[0, 0, 1, 75]' interval=[1502316952.252020,1502316952.263770] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 75]' interval=[1502316952.252250,1502316952.262040] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 76]' interval=[1502316952.452490,1502316952.462650]
+READ deviceId=2 key=1 value='[0, 0, 1, 76]' interval=[1502316952.551360,1502316952.562110] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 76]' interval=[1502316952.552150,1502316952.564400] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 76]' interval=[1502316952.651950,1502316952.663990] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 76]' interval=[1502316952.652160,1502316952.663620] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 77]' interval=[1502316952.752200,1502316952.761340]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 78]' interval=[1502316952.851850,1502316952.861520]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 79]' interval=[1502316952.952180,1502316952.962450]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 80]' interval=[1502316953.051940,1502316953.062760]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 81]' interval=[1502316953.151810,1502316953.160930]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 82]' interval=[1502316953.251830,1502316953.263350]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 83]' interval=[1502316953.351980,1502316953.363230]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 84]' interval=[1502316953.551920,1502316953.566140]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 85]' interval=[1502316953.652970,1502316953.665800]
+READ deviceId=2 key=1 value='[0, 0, 1, 85]' interval=[1502316953.751950,1502316953.761890] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 85]' interval=[1502316953.752510,1502316953.763450] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 86]' interval=[1502316954.052280,1502316954.062450]
+READ deviceId=2 key=1 value='[0, 0, 1, 86]' interval=[1502316954.151760,1502316954.164050] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 86]' interval=[1502316954.152260,1502316954.163300] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 86]' interval=[1502316954.251600,1502316954.261440] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 86]' interval=[1502316954.251880,1502316954.258880] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 86]' interval=[1502316954.351560,1502316954.361660] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 86]' interval=[1502316954.351930,1502316954.361830] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 86]' interval=[1502316954.552130,1502316954.562300] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 86]' interval=[1502316954.552790,1502316954.565270] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 86]' interval=[1502316954.851770,1502316954.857300] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 86]' interval=[1502316954.851960,1502316954.862040] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 87]' interval=[1502316954.952240,1502316954.961510]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 88]' interval=[1502316955.051800,1502316955.063880]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 89]' interval=[1502316955.152140,1502316955.160600]
+READ deviceId=2 key=1 value='[0, 0, 1, 89]' interval=[1502316955.451970,1502316955.462740] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 89]' interval=[1502316955.452210,1502316955.461010] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 90]' interval=[1502316955.551420,1502316955.562710]
+READ deviceId=2 key=1 value='[0, 0, 1, 90]' interval=[1502316955.651540,1502316955.663580] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 90]' interval=[1502316955.651550,1502316955.663830] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 91]' interval=[1502316955.751570,1502316955.761230]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 92]' interval=[1502316955.851720,1502316955.860670]
+READ deviceId=2 key=1 value='[0, 0, 1, 92]' interval=[1502316955.952030,1502316955.964150] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 92]' interval=[1502316955.952150,1502316955.963610] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 93]' interval=[1502316956.051880,1502316956.060630]
+READ deviceId=2 key=1 value='[0, 0, 1, 93]' interval=[1502316956.151830,1502316956.161580] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 93]' interval=[1502316956.152240,1502316956.161810] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 93]' interval=[1502316956.252210,1502316956.264160] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 93]' interval=[1502316956.252390,1502316956.265810] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 93]' interval=[1502316956.351510,1502316956.362190] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 93]' interval=[1502316956.352390,1502316956.363560] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 94]' interval=[1502316956.452130,1502316956.461520]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 95]' interval=[1502316956.552580,1502316956.568000]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 96]' interval=[1502316956.651600,1502316956.661650]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 97]' interval=[1502316956.752300,1502316956.763260]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 98]' interval=[1502316956.951460,1502316956.961160]
+READ deviceId=2 key=1 value='[0, 0, 1, 98]' interval=[1502316957.251650,1502316957.261400] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 98]' interval=[1502316957.251890,1502316957.259190] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 99]' interval=[1502316957.351830,1502316957.361500]
+READ deviceId=1 key=1 value='[0, 0, 1, 99]' interval=[1502316957.452100,1502316957.463490] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 99]' interval=[1502316957.452230,1502316957.464400] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 99]' interval=[1502316957.651500,1502316957.665140] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 99]' interval=[1502316957.651560,1502316957.661540] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 100]' interval=[1502316957.752210,1502316957.765250]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 101]' interval=[1502316957.851980,1502316957.865090]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 102]' interval=[1502316958.051570,1502316958.063220]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 103]' interval=[1502316958.152070,1502316958.160900]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 104]' interval=[1502316958.252430,1502316958.261190]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 105]' interval=[1502316958.351780,1502316958.363510]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 106]' interval=[1502316958.452260,1502316958.460630]
+READ deviceId=2 key=1 value='[0, 0, 1, 106]' interval=[1502316958.551710,1502316958.561960] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 106]' interval=[1502316958.551980,1502316958.561860] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 107]' interval=[1502316958.652120,1502316958.663350]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 108]' interval=[1502316958.752070,1502316958.761160]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 109]' interval=[1502316958.851480,1502316958.861520]
+READ deviceId=2 key=1 value='[0, 0, 1, 109]' interval=[1502316958.951250,1502316958.963600] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 109]' interval=[1502316958.951750,1502316958.963510] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 110]' interval=[1502316959.052060,1502316959.060790]
+READ deviceId=2 key=1 value='[0, 0, 1, 110]' interval=[1502316959.151420,1502316959.161540] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 110]' interval=[1502316959.152360,1502316959.162660] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 111]' interval=[1502316959.351720,1502316959.361340]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 112]' interval=[1502316959.451940,1502316959.461560]
+READ deviceId=2 key=1 value='[0, 0, 1, 112]' interval=[1502316959.551950,1502316959.564440] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 112]' interval=[1502316959.552040,1502316959.563990] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 112]' interval=[1502316959.651580,1502316959.661830] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 112]' interval=[1502316959.651710,1502316959.661790] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 112]' interval=[1502316959.851430,1502316959.863830] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 112]' interval=[1502316959.851590,1502316959.863710] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 112]' interval=[1502316959.951810,1502316959.965480] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 112]' interval=[1502316959.952470,1502316959.970240] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 113]' interval=[1502316960.051970,1502316960.062250]
+READ deviceId=1 key=1 value='[0, 0, 1, 113]' interval=[1502316960.151590,1502316960.161440] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 113]' interval=[1502316960.152600,1502316960.164300] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 113]' interval=[1502316960.251800,1502316960.261940] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 113]' interval=[1502316960.252180,1502316960.259410] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 114]' interval=[1502316960.352460,1502316960.361790]
+READ deviceId=2 key=1 value='[0, 0, 1, 114]' interval=[1502316960.551800,1502316960.561970] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 114]' interval=[1502316960.552330,1502316960.561600] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 115]' interval=[1502316960.652170,1502316960.660560]
+READ deviceId=2 key=1 value='[0, 0, 1, 115]' interval=[1502316960.752120,1502316960.770030] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 115]' interval=[1502316960.752160,1502316960.763790] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 116]' interval=[1502316960.852490,1502316960.863310]
+READ deviceId=1 key=1 value='[0, 0, 1, 116]' interval=[1502316960.951910,1502316960.962170] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 116]' interval=[1502316960.952310,1502316960.962610] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 117]' interval=[1502316961.052020,1502316961.062960]
+READ deviceId=1 key=1 value='[0, 0, 1, 117]' interval=[1502316961.151460,1502316961.161390] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 117]' interval=[1502316961.152230,1502316961.162310] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 118]' interval=[1502316961.451510,1502316961.461350]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 119]' interval=[1502316961.551720,1502316961.561300]
+READ deviceId=1 key=1 value='[0, 0, 1, 119]' interval=[1502316961.751720,1502316961.761810] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 119]' interval=[1502316961.751850,1502316961.761890] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 120]' interval=[1502316961.852410,1502316961.863140]
+READ deviceId=2 key=1 value='[0, 0, 1, 120]' interval=[1502316961.951440,1502316961.968290] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 120]' interval=[1502316961.951470,1502316961.963510] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 121]' interval=[1502316962.052110,1502316962.063020]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 122]' interval=[1502316962.252280,1502316962.262640]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 123]' interval=[1502316962.352230,1502316962.361060]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 124]' interval=[1502316962.451440,1502316962.460970]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 125]' interval=[1502316962.552430,1502316962.565000]
+WRITE deviceId=1 key=1 value='[0, 0, 1, 126]' interval=[1502316962.852170,1502316962.862780]
+READ deviceId=2 key=1 value='[0, 0, 1, 126]' interval=[1502316962.951290,1502316962.961480] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 126]' interval=[1502316962.952320,1502316962.963180] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, 126]' interval=[1502316963.051360,1502316963.061400] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, 126]' interval=[1502316963.052100,1502316963.062240] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, 127]' interval=[1502316963.151700,1502316963.163160]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -128]' interval=[1502316963.351580,1502316963.361340]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -127]' interval=[1502316963.451950,1502316963.462780]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -126]' interval=[1502316963.552320,1502316963.561190]
+READ deviceId=1 key=1 value='[0, 0, 1, -126]' interval=[1502316963.651480,1502316963.661550] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, -126]' interval=[1502316963.651890,1502316963.662170] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, -126]' interval=[1502316963.851660,1502316963.863010] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -126]' interval=[1502316963.851800,1502316963.861930] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, -126]' interval=[1502316963.951400,1502316963.962340] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -126]' interval=[1502316963.952250,1502316963.961350] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, -126]' interval=[1502316964.151390,1502316964.161990] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -126]' interval=[1502316964.151710,1502316964.161260] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -125]' interval=[1502316964.251910,1502316964.263450]
+READ deviceId=2 key=1 value='[0, 0, 1, -125]' interval=[1502316964.351320,1502316964.364000] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -125]' interval=[1502316964.351830,1502316964.363370] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -124]' interval=[1502316964.551710,1502316964.561400]
+READ deviceId=1 key=1 value='[0, 0, 1, -124]' interval=[1502316964.651600,1502316964.663150] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, -124]' interval=[1502316964.651640,1502316964.663960] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -123]' interval=[1502316964.751730,1502316964.760730]
+READ deviceId=2 key=1 value='[0, 0, 1, -123]' interval=[1502316964.851770,1502316964.862110] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -123]' interval=[1502316964.852190,1502316964.861630] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -122]' interval=[1502316964.952170,1502316964.962800]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -121]' interval=[1502316965.051660,1502316965.061510]
+READ deviceId=1 key=1 value='[0, 0, 1, -121]' interval=[1502316965.151880,1502316965.161130] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, -121]' interval=[1502316965.152490,1502316965.164280] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -120]' interval=[1502316965.351830,1502316965.361360]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -119]' interval=[1502316965.451890,1502316965.460990]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -118]' interval=[1502316965.551860,1502316965.563640]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -117]' interval=[1502316965.652000,1502316965.660580]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -116]' interval=[1502316965.752000,1502316965.760900]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -115]' interval=[1502316965.852450,1502316965.866090]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -114]' interval=[1502316966.052490,1502316966.063040]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -113]' interval=[1502316966.251350,1502316966.260960]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -112]' interval=[1502316966.352100,1502316966.363860]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -111]' interval=[1502316966.452080,1502316966.467060]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -110]' interval=[1502316966.552260,1502316966.560590]
+READ deviceId=1 key=1 value='[0, 0, 1, -110]' interval=[1502316966.652070,1502316966.662450] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, -110]' interval=[1502316966.652100,1502316966.662320] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -110]' interval=[1502316966.751620,1502316966.763880] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, -110]' interval=[1502316966.751780,1502316966.763620] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -109]' interval=[1502316966.952210,1502316966.960900]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -108]' interval=[1502316967.052390,1502316967.065330]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -107]' interval=[1502316967.151590,1502316967.161460]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -106]' interval=[1502316967.251740,1502316967.260940]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -105]' interval=[1502316967.551810,1502316967.561220]
+READ deviceId=1 key=1 value='[0, 0, 1, -105]' interval=[1502316967.651470,1502316967.664140] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, -105]' interval=[1502316967.652460,1502316967.664590] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -104]' interval=[1502316967.751610,1502316967.761470]
+READ deviceId=2 key=1 value='[0, 0, 1, -104]' interval=[1502316967.951700,1502316967.964140] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -104]' interval=[1502316967.952280,1502316967.963540] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -103]' interval=[1502316968.152100,1502316968.160240]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -102]' interval=[1502316968.251730,1502316968.263110]
+READ deviceId=2 key=1 value='[0, 0, 1, -102]' interval=[1502316968.351490,1502316968.363530] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -102]' interval=[1502316968.351590,1502316968.361500] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -101]' interval=[1502316968.451970,1502316968.462340]
+READ deviceId=2 key=1 value='[0, 0, 1, -101]' interval=[1502316968.551560,1502316968.563790] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -101]' interval=[1502316968.551880,1502316968.563970] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -100]' interval=[1502316968.652340,1502316968.661890]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -99]' interval=[1502316968.751730,1502316968.761510]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -98]' interval=[1502316968.851890,1502316968.864770]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -97]' interval=[1502316968.952000,1502316968.962580]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -96]' interval=[1502316969.251350,1502316969.260770]
+READ deviceId=2 key=1 value='[0, 0, 1, -96]' interval=[1502316969.351410,1502316969.363620] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -96]' interval=[1502316969.351880,1502316969.361350] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -95]' interval=[1502316969.451680,1502316969.463280]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -94]' interval=[1502316969.551870,1502316969.560920]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -93]' interval=[1502316969.652150,1502316969.660460]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -92]' interval=[1502316969.951530,1502316969.961540]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -91]' interval=[1502316970.052030,1502316970.063350]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -90]' interval=[1502316970.151530,1502316970.160800]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -89]' interval=[1502316970.252460,1502316970.263380]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -88]' interval=[1502316970.451800,1502316970.462300]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -87]' interval=[1502316970.551510,1502316970.563270]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -86]' interval=[1502316970.651500,1502316970.666750]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -85]' interval=[1502316970.752180,1502316970.760570]
+READ deviceId=2 key=1 value='[0, 0, 1, -85]' interval=[1502316970.851660,1502316970.861670] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -85]' interval=[1502316970.852020,1502316970.862720] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -84]' interval=[1502316970.951960,1502316970.962650]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -83]' interval=[1502316971.052280,1502316971.062060]
+READ deviceId=1 key=1 value='[0, 0, 1, -83]' interval=[1502316971.151340,1502316971.161900] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, -83]' interval=[1502316971.152370,1502316971.164460] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, -83]' interval=[1502316971.252090,1502316971.264210] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -83]' interval=[1502316971.252230,1502316971.265430] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -82]' interval=[1502316971.351290,1502316971.360870]
+READ deviceId=2 key=1 value='[0, 0, 1, -82]' interval=[1502316971.552110,1502316971.564780] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -82]' interval=[1502316971.552620,1502316971.565560] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -81]' interval=[1502316971.652050,1502316971.661670]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -80]' interval=[1502316971.951350,1502316971.961110]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -79]' interval=[1502316972.051810,1502316972.061730]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -78]' interval=[1502316972.151860,1502316972.163680]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -77]' interval=[1502316972.252110,1502316972.262250]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -76]' interval=[1502316972.351630,1502316972.357340]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -75]' interval=[1502316972.452050,1502316972.463020]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -74]' interval=[1502316972.552250,1502316972.560610]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -73]' interval=[1502316972.652100,1502316972.660680]
+READ deviceId=1 key=1 value='[0, 0, 1, -73]' interval=[1502316972.751900,1502316972.763360] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, -73]' interval=[1502316972.751940,1502316972.765750] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -72]' interval=[1502316972.851980,1502316972.862140]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -71]' interval=[1502316973.052390,1502316973.065280]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -70]' interval=[1502316973.252530,1502316973.263360]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -69]' interval=[1502316973.351680,1502316973.363550]
+READ deviceId=1 key=1 value='[0, 0, 1, -69]' interval=[1502316973.451900,1502316973.462450] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, -69]' interval=[1502316973.452010,1502316973.461740] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -69]' interval=[1502316973.551800,1502316973.561590] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, -69]' interval=[1502316973.552120,1502316973.563420] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -68]' interval=[1502316973.651860,1502316973.663620]
+READ deviceId=2 key=1 value='[0, 0, 1, -68]' interval=[1502316973.751520,1502316973.761970] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -68]' interval=[1502316973.752200,1502316973.761030] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -67]' interval=[1502316973.851880,1502316973.862330]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -66]' interval=[1502316973.951710,1502316973.963500]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -65]' interval=[1502316974.151780,1502316974.161460]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -64]' interval=[1502316974.352380,1502316974.360420]
+READ deviceId=2 key=1 value='[0, 0, 1, -64]' interval=[1502316974.451750,1502316974.462180] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -64]' interval=[1502316974.451780,1502316974.462890] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -63]' interval=[1502316974.551410,1502316974.563290]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -62]' interval=[1502316974.651540,1502316974.662080]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -61]' interval=[1502316974.751790,1502316974.761360]
+READ deviceId=1 key=1 value='[0, 0, 1, -61]' interval=[1502316974.851870,1502316974.865800] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, -61]' interval=[1502316974.852030,1502316974.864660] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -60]' interval=[1502316974.952060,1502316974.964080]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -59]' interval=[1502316975.151450,1502316975.162950]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -58]' interval=[1502316975.251720,1502316975.261170]
+READ deviceId=2 key=1 value='[0, 0, 1, -58]' interval=[1502316975.351410,1502316975.365260] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -58]' interval=[1502316975.352000,1502316975.358100] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -58]' interval=[1502316975.451690,1502316975.463830] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, -58]' interval=[1502316975.451730,1502316975.464410] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -57]' interval=[1502316975.552420,1502316975.560680]
+READ deviceId=2 key=1 value='[0, 0, 1, -57]' interval=[1502316975.851510,1502316975.862340] 0 0.000000
+READ deviceId=1 key=1 value='[0, 0, 1, -57]' interval=[1502316975.851600,1502316975.861270] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -56]' interval=[1502316975.951680,1502316975.961440]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -55]' interval=[1502316976.051780,1502316976.063490]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -54]' interval=[1502316976.151870,1502316976.162870]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -53]' interval=[1502316976.252500,1502316976.262570]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -52]' interval=[1502316976.452510,1502316976.463670]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -51]' interval=[1502316976.552280,1502316976.560510]
+READ deviceId=1 key=1 value='[0, 0, 1, -51]' interval=[1502316976.751930,1502316976.761940] 0 0.000000
+READ deviceId=2 key=1 value='[0, 0, 1, -51]' interval=[1502316976.752400,1502316976.763610] 0 0.000000
+WRITE deviceId=1 key=1 value='[0, 0, 1, -50]' interval=[1502316976.851560,1502316976.860730]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -49]' interval=[1502316976.952160,1502316976.962630]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -48]' interval=[1502316977.152140,1502316977.161750]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -47]' interval=[1502316977.252200,1502316977.262470]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -46]' interval=[1502316977.452020,1502316977.461210]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -45]' interval=[1502316977.551950,1502316977.563590]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -44]' interval=[1502316977.651810,1502316977.660380]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -43]' interval=[1502316977.752360,1502316977.762700]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -42]' interval=[1502316978.252680,1502316978.262800]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -41]' interval=[1502316978.451810,1502316978.463660]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -40]' interval=[1502316978.552370,1502316978.562990]
+WRITE deviceId=1 key=1 value='[0, 0, 1, -39]' interval=[1502316978.651410,1502316978.661890]
+operation Count|count=915|avg=1.000000|stddev=0.000000|min=1.000000|max=1.000000
+read Count|count=441|avg=1.000000|stddev=0.000000|min=1.000000|max=1.000000
+latency|count=915|avg=0.011001|stddev=0.005963|min=0.004530|max=0.144980
+time lag|count=441|avg=0.000000|stddev=0.000000|min=0.000000|max=0.000000
+version lag|count=441|avg=0.000000|stddev=0.000000|min=0.000000|max=0.000000
+read errors|count=0|avg=NaN|stddev=NaN|min=179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000|max=0.000000
+== H2 ==
+WRITE deviceId=2 key=2 value='[0, 0, 0, 0]' interval=[1502316888.652380,1502316888.797160]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 1]' interval=[1502316888.797870,1502316888.801850]
+READ deviceId=2 key=2 value='[0, 0, 0, 1]' interval=[1502316888.851310,1502316888.854950] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 1]' interval=[1502316888.851980,1502316888.856010] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 1]' interval=[1502316888.951700,1502316888.961980] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 1]' interval=[1502316888.951980,1502316888.965180] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 2]' interval=[1502316889.052840,1502316889.061840]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 3]' interval=[1502316889.151690,1502316889.162630]
+READ deviceId=2 key=2 value='[0, 0, 0, 3]' interval=[1502316889.251370,1502316889.264890] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 3]' interval=[1502316889.252540,1502316889.264390] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 4]' interval=[1502316889.451960,1502316889.466110]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 5]' interval=[1502316889.552280,1502316889.574880]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 6]' interval=[1502316889.651730,1502316889.662070]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 7]' interval=[1502316889.752380,1502316889.763050]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 8]' interval=[1502316889.952460,1502316889.963700]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 9]' interval=[1502316890.051650,1502316890.061610]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 10]' interval=[1502316890.151660,1502316890.165460]
+READ deviceId=2 key=2 value='[0, 0, 0, 10]' interval=[1502316890.251550,1502316890.261660] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 10]' interval=[1502316890.252010,1502316890.263180] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 11]' interval=[1502316890.352500,1502316890.363200]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 12]' interval=[1502316890.452450,1502316890.464230]
+READ deviceId=2 key=2 value='[0, 0, 0, 12]' interval=[1502316890.551850,1502316890.563160] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 12]' interval=[1502316890.551880,1502316890.566640] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 12]' interval=[1502316890.651400,1502316890.661610] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 12]' interval=[1502316890.652040,1502316890.661320] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 13]' interval=[1502316890.752350,1502316890.764460]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 14]' interval=[1502316891.052500,1502316891.064290]
+READ deviceId=2 key=2 value='[0, 0, 0, 14]' interval=[1502316891.151680,1502316891.163550] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 14]' interval=[1502316891.152450,1502316891.166920] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 15]' interval=[1502316891.251590,1502316891.261250]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 16]' interval=[1502316891.351800,1502316891.363580]
+READ deviceId=1 key=2 value='[0, 0, 0, 16]' interval=[1502316891.451340,1502316891.464500] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 16]' interval=[1502316891.451890,1502316891.457710] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 16]' interval=[1502316891.651930,1502316891.664540] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 16]' interval=[1502316891.652190,1502316891.663980] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 17]' interval=[1502316891.751970,1502316891.762680]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 18]' interval=[1502316891.852510,1502316891.862150]
+READ deviceId=2 key=2 value='[0, 0, 0, 18]' interval=[1502316891.951370,1502316891.964670] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 18]' interval=[1502316891.952000,1502316891.961180] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 18]' interval=[1502316892.051640,1502316892.063710] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 18]' interval=[1502316892.052280,1502316892.062520] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 18]' interval=[1502316892.151670,1502316892.161720] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 18]' interval=[1502316892.151850,1502316892.162050] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 19]' interval=[1502316892.252290,1502316892.264090]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 20]' interval=[1502316892.351740,1502316892.361500]
+READ deviceId=2 key=2 value='[0, 0, 0, 20]' interval=[1502316892.451890,1502316892.462090] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 20]' interval=[1502316892.452070,1502316892.460980] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 20]' interval=[1502316892.651520,1502316892.662100] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 20]' interval=[1502316892.651990,1502316892.662870] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 21]' interval=[1502316892.752160,1502316892.762290]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 22]' interval=[1502316892.851350,1502316892.863130]
+READ deviceId=2 key=2 value='[0, 0, 0, 22]' interval=[1502316893.052190,1502316893.060170] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 22]' interval=[1502316893.052220,1502316893.061230] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 23]' interval=[1502316893.152110,1502316893.164480]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 24]' interval=[1502316893.251910,1502316893.262270]
+READ deviceId=1 key=2 value='[0, 0, 0, 24]' interval=[1502316893.652100,1502316893.660990] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 24]' interval=[1502316893.652120,1502316893.665650] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 25]' interval=[1502316893.752020,1502316893.768040]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 26]' interval=[1502316893.852350,1502316893.862120]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 27]' interval=[1502316894.052550,1502316894.064680]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 28]' interval=[1502316894.251670,1502316894.261430]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 29]' interval=[1502316894.352130,1502316894.364170]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 30]' interval=[1502316894.451670,1502316894.461780]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 31]' interval=[1502316894.551500,1502316894.561630]
+READ deviceId=2 key=2 value='[0, 0, 0, 31]' interval=[1502316894.652210,1502316894.664720] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 31]' interval=[1502316894.652310,1502316894.661330] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 32]' interval=[1502316894.751660,1502316894.761390]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 33]' interval=[1502316894.852170,1502316894.861930]
+READ deviceId=2 key=2 value='[0, 0, 0, 33]' interval=[1502316895.052110,1502316895.062720] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 33]' interval=[1502316895.052930,1502316895.064980] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 34]' interval=[1502316895.151910,1502316895.162360]
+READ deviceId=1 key=2 value='[0, 0, 0, 34]' interval=[1502316895.251600,1502316895.261570] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 34]' interval=[1502316895.251840,1502316895.264220] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 34]' interval=[1502316895.451790,1502316895.461480] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 34]' interval=[1502316895.452120,1502316895.462620] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 35]' interval=[1502316895.651880,1502316895.662630]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 36]' interval=[1502316895.752460,1502316895.762020]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 37]' interval=[1502316895.851320,1502316895.863400]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 38]' interval=[1502316895.951870,1502316895.961260]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 39]' interval=[1502316896.051810,1502316896.061860]
+READ deviceId=2 key=2 value='[0, 0, 0, 39]' interval=[1502316896.151620,1502316896.164840] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 39]' interval=[1502316896.152020,1502316896.162040] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 40]' interval=[1502316896.252040,1502316896.261820]
+READ deviceId=2 key=2 value='[0, 0, 0, 40]' interval=[1502316896.451510,1502316896.463630] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 40]' interval=[1502316896.451960,1502316896.461600] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 40]' interval=[1502316896.552040,1502316896.561920] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 40]' interval=[1502316896.552080,1502316896.563020] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 40]' interval=[1502316896.651980,1502316896.662760] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 40]' interval=[1502316896.652150,1502316896.661210] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 41]' interval=[1502316896.752100,1502316896.763850]
+READ deviceId=2 key=2 value='[0, 0, 0, 41]' interval=[1502316896.851540,1502316896.861640] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 41]' interval=[1502316896.851880,1502316896.864010] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 42]' interval=[1502316897.052230,1502316897.064160]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 43]' interval=[1502316897.151520,1502316897.162400]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 44]' interval=[1502316897.251890,1502316897.261720]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 45]' interval=[1502316897.352260,1502316897.364320]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 46]' interval=[1502316897.452020,1502316897.461820]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 47]' interval=[1502316897.551500,1502316897.561610]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 48]' interval=[1502316897.652120,1502316897.665770]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 49]' interval=[1502316897.851660,1502316897.863830]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 50]' interval=[1502316897.952330,1502316897.969700]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 51]' interval=[1502316898.052620,1502316898.066710]
+READ deviceId=2 key=2 value='[0, 0, 0, 51]' interval=[1502316898.351790,1502316898.362060] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 51]' interval=[1502316898.352220,1502316898.363480] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 51]' interval=[1502316898.451600,1502316898.461700] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 51]' interval=[1502316898.452050,1502316898.461170] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 52]' interval=[1502316898.552370,1502316898.563790]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 53]' interval=[1502316898.652380,1502316898.664990]
+READ deviceId=1 key=2 value='[0, 0, 0, 53]' interval=[1502316898.751990,1502316898.761340] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 53]' interval=[1502316898.752460,1502316898.762960] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 53]' interval=[1502316898.851830,1502316898.861850] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 53]' interval=[1502316898.851970,1502316898.864690] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 54]' interval=[1502316899.151610,1502316899.165730]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 55]' interval=[1502316899.252240,1502316899.262220]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 56]' interval=[1502316899.351790,1502316899.361320]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 57]' interval=[1502316899.452030,1502316899.463600]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 58]' interval=[1502316899.552380,1502316899.562190]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 59]' interval=[1502316899.752460,1502316899.763910]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 60]' interval=[1502316899.851580,1502316899.861290]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 61]' interval=[1502316899.952000,1502316899.961710]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 62]' interval=[1502316900.052250,1502316900.068050]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 63]' interval=[1502316900.156150,1502316900.165040]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 64]' interval=[1502316900.251740,1502316900.264100]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 65]' interval=[1502316900.351400,1502316900.363470]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 66]' interval=[1502316900.451980,1502316900.463000]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 67]' interval=[1502316900.552250,1502316900.558210]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 68]' interval=[1502316900.652450,1502316900.664320]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 69]' interval=[1502316900.851820,1502316900.861710]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 70]' interval=[1502316900.951900,1502316900.965910]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 71]' interval=[1502316901.352370,1502316901.362270]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 72]' interval=[1502316901.551660,1502316901.563040]
+READ deviceId=2 key=2 value='[0, 0, 0, 72]' interval=[1502316901.651410,1502316901.662230] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 72]' interval=[1502316901.651950,1502316901.661770] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 73]' interval=[1502316901.851470,1502316901.863320]
+READ deviceId=1 key=2 value='[0, 0, 0, 73]' interval=[1502316901.951890,1502316901.962880] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 73]' interval=[1502316901.952260,1502316901.962550] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 74]' interval=[1502316902.052080,1502316902.061850]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 75]' interval=[1502316902.151460,1502316902.167920]
+READ deviceId=2 key=2 value='[0, 0, 0, 75]' interval=[1502316902.251920,1502316902.266400] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 75]' interval=[1502316902.251980,1502316902.263590] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 76]' interval=[1502316902.451440,1502316902.462990]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 77]' interval=[1502316902.751630,1502316902.763860]
+READ deviceId=2 key=2 value='[0, 0, 0, 77]' interval=[1502316902.851540,1502316902.861860] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 77]' interval=[1502316902.852410,1502316902.867450] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 77]' interval=[1502316903.051280,1502316903.063660] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 77]' interval=[1502316903.052360,1502316903.063750] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 78]' interval=[1502316903.153150,1502316903.166290]
+READ deviceId=1 key=2 value='[0, 0, 0, 78]' interval=[1502316903.252020,1502316903.261100] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 78]' interval=[1502316903.252270,1502316903.262140] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 78]' interval=[1502316903.351220,1502316903.363540] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 78]' interval=[1502316903.351700,1502316903.361930] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 79]' interval=[1502316903.451660,1502316903.461790]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 80]' interval=[1502316903.652030,1502316903.664400]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 81]' interval=[1502316903.752140,1502316903.762280]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 82]' interval=[1502316903.851540,1502316903.861290]
+READ deviceId=2 key=2 value='[0, 0, 0, 82]' interval=[1502316903.951570,1502316903.961640] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 82]' interval=[1502316903.951860,1502316903.964370] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 83]' interval=[1502316904.152180,1502316904.163040]
+READ deviceId=1 key=2 value='[0, 0, 0, 83]' interval=[1502316904.251880,1502316904.261980] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 83]' interval=[1502316904.252220,1502316904.264660] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 84]' interval=[1502316904.351950,1502316904.361600]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 85]' interval=[1502316904.452140,1502316904.461980]
+READ deviceId=1 key=2 value='[0, 0, 0, 85]' interval=[1502316904.652190,1502316904.663360] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 85]' interval=[1502316904.653510,1502316904.667740] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 86]' interval=[1502316904.851360,1502316904.863150]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 87]' interval=[1502316905.251490,1502316905.261680]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 88]' interval=[1502316905.351610,1502316905.361680]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 89]' interval=[1502316905.452140,1502316905.463400]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 90]' interval=[1502316905.552130,1502316905.561690]
+READ deviceId=2 key=2 value='[0, 0, 0, 90]' interval=[1502316905.651510,1502316905.663100] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 90]' interval=[1502316905.651910,1502316905.661820] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 91]' interval=[1502316905.751840,1502316905.763860]
+READ deviceId=2 key=2 value='[0, 0, 0, 91]' interval=[1502316905.851850,1502316905.862110] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 91]' interval=[1502316905.851900,1502316905.864400] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 92]' interval=[1502316906.051320,1502316906.063310]
+READ deviceId=2 key=2 value='[0, 0, 0, 92]' interval=[1502316906.151910,1502316906.163310] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 92]' interval=[1502316906.152430,1502316906.163550] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 93]' interval=[1502316906.253440,1502316906.264030]
+READ deviceId=1 key=2 value='[0, 0, 0, 93]' interval=[1502316906.351670,1502316906.362670] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 93]' interval=[1502316906.351730,1502316906.366330] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 94]' interval=[1502316906.451660,1502316906.465420]
+READ deviceId=1 key=2 value='[0, 0, 0, 94]' interval=[1502316906.751820,1502316906.769090] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 94]' interval=[1502316906.751830,1502316906.762060] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 95]' interval=[1502316906.851490,1502316906.861130]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 96]' interval=[1502316906.951670,1502316906.963430]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 97]' interval=[1502316907.051990,1502316907.061510]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 98]' interval=[1502316907.351650,1502316907.361610]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 99]' interval=[1502316907.452270,1502316907.457440]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 100]' interval=[1502316907.551750,1502316907.563300]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 101]' interval=[1502316907.751910,1502316907.761750]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 102]' interval=[1502316907.851620,1502316907.857190]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 103]' interval=[1502316907.952020,1502316907.962030]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 104]' interval=[1502316908.051350,1502316908.060970]
+READ deviceId=2 key=2 value='[0, 0, 0, 104]' interval=[1502316908.151290,1502316908.168460] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 104]' interval=[1502316908.151800,1502316908.161430] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 104]' interval=[1502316908.351890,1502316908.361860] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 104]' interval=[1502316908.351950,1502316908.362310] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 105]' interval=[1502316908.451870,1502316908.463490]
+READ deviceId=2 key=2 value='[0, 0, 0, 105]' interval=[1502316908.551790,1502316908.561770] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 105]' interval=[1502316908.552160,1502316908.563880] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 106]' interval=[1502316908.652170,1502316908.662390]
+READ deviceId=2 key=2 value='[0, 0, 0, 106]' interval=[1502316908.851680,1502316908.861960] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 106]' interval=[1502316908.852150,1502316908.863630] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 107]' interval=[1502316908.951820,1502316908.961430]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 108]' interval=[1502316909.052330,1502316909.064400]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 109]' interval=[1502316909.252800,1502316909.261510]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 110]' interval=[1502316909.551680,1502316909.556790]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 111]' interval=[1502316909.652070,1502316909.664220]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 112]' interval=[1502316909.752360,1502316909.762310]
+READ deviceId=1 key=2 value='[0, 0, 0, 112]' interval=[1502316909.851420,1502316909.861620] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 112]' interval=[1502316909.852010,1502316909.862110] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 113]' interval=[1502316910.151620,1502316910.166080]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 114]' interval=[1502316910.251890,1502316910.263820]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 115]' interval=[1502316910.351730,1502316910.361520]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 116]' interval=[1502316910.551790,1502316910.563100]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 117]' interval=[1502316910.651700,1502316910.666410]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 118]' interval=[1502316910.751930,1502316910.766030]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 119]' interval=[1502316910.851640,1502316910.863350]
+READ deviceId=2 key=2 value='[0, 0, 0, 119]' interval=[1502316910.951660,1502316910.961550] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 119]' interval=[1502316910.951850,1502316910.968420] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 120]' interval=[1502316911.052150,1502316911.062220]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 121]' interval=[1502316911.151700,1502316911.165560]
+READ deviceId=1 key=2 value='[0, 0, 0, 121]' interval=[1502316911.252110,1502316911.263540] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 121]' interval=[1502316911.252340,1502316911.262630] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 121]' interval=[1502316911.451930,1502316911.464090] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 121]' interval=[1502316911.452010,1502316911.517730] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 121]' interval=[1502316911.652350,1502316911.665640] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 121]' interval=[1502316911.652470,1502316911.698360] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, 122]' interval=[1502316911.751850,1502316911.763220]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 123]' interval=[1502316911.851680,1502316911.862140]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 124]' interval=[1502316911.951670,1502316911.961580]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 125]' interval=[1502316912.052160,1502316912.063660]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 126]' interval=[1502316912.152430,1502316912.164790]
+WRITE deviceId=2 key=2 value='[0, 0, 0, 127]' interval=[1502316912.251320,1502316912.261330]
+READ deviceId=2 key=2 value='[0, 0, 0, 127]' interval=[1502316912.352080,1502316912.364340] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 127]' interval=[1502316912.352500,1502316912.361640] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, 127]' interval=[1502316912.451840,1502316912.466970] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, 127]' interval=[1502316912.452380,1502316912.463040] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -128]' interval=[1502316912.553890,1502316912.563810]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -127]' interval=[1502316912.652460,1502316912.664870]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -126]' interval=[1502316912.751440,1502316912.761550]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -125]' interval=[1502316912.852350,1502316912.862220]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -124]' interval=[1502316913.251940,1502316913.263470]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -123]' interval=[1502316913.351410,1502316913.361470]
+READ deviceId=2 key=2 value='[0, 0, 0, -123]' interval=[1502316913.451890,1502316913.461660] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -123]' interval=[1502316913.453370,1502316913.467320] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -122]' interval=[1502316913.552400,1502316913.563990]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -121]' interval=[1502316913.852490,1502316913.864730]
+READ deviceId=1 key=2 value='[0, 0, 0, -121]' interval=[1502316913.951880,1502316913.964330] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -121]' interval=[1502316913.952200,1502316913.962390] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -121]' interval=[1502316914.051710,1502316914.061460] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -121]' interval=[1502316914.052190,1502316914.063840] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -121]' interval=[1502316914.151710,1502316914.161670] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -121]' interval=[1502316914.152300,1502316914.168060] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -120]' interval=[1502316914.251380,1502316914.261650]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -119]' interval=[1502316914.452020,1502316914.463770]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -118]' interval=[1502316914.552380,1502316914.562050]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -117]' interval=[1502316914.651280,1502316914.661380]
+READ deviceId=2 key=2 value='[0, 0, 0, -117]' interval=[1502316914.751830,1502316914.764170] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -117]' interval=[1502316914.752230,1502316914.761650] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -116]' interval=[1502316914.851950,1502316914.861950]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -115]' interval=[1502316914.951610,1502316914.964620]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -114]' interval=[1502316915.052250,1502316915.068690]
+READ deviceId=1 key=2 value='[0, 0, 0, -114]' interval=[1502316915.151640,1502316915.165780] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -114]' interval=[1502316915.151940,1502316915.161740] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -113]' interval=[1502316915.251550,1502316915.261480]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -112]' interval=[1502316915.352460,1502316915.364570]
+READ deviceId=1 key=2 value='[0, 0, 0, -112]' interval=[1502316915.451830,1502316915.481760] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -112]' interval=[1502316915.452090,1502316915.462220] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -111]' interval=[1502316915.551940,1502316915.561550]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -110]' interval=[1502316915.752110,1502316915.762020]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -109]' interval=[1502316915.952290,1502316915.964240]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -108]' interval=[1502316916.051550,1502316916.061410]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -107]' interval=[1502316916.151750,1502316916.161220]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -106]' interval=[1502316916.251710,1502316916.264220]
+READ deviceId=2 key=2 value='[0, 0, 0, -106]' interval=[1502316916.351960,1502316916.363230] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -106]' interval=[1502316916.352020,1502316916.364150] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -106]' interval=[1502316916.451770,1502316916.462160] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -106]' interval=[1502316916.452230,1502316916.461350] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -106]' interval=[1502316916.551780,1502316916.564030] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -106]' interval=[1502316916.552080,1502316916.561680] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -105]' interval=[1502316916.651430,1502316916.661450]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -104]' interval=[1502316916.751900,1502316916.762210]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -103]' interval=[1502316916.951550,1502316916.961660]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -102]' interval=[1502316917.052230,1502316917.062030]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -101]' interval=[1502316917.252080,1502316917.262420]
+READ deviceId=1 key=2 value='[0, 0, 0, -101]' interval=[1502316917.351900,1502316917.361670] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -101]' interval=[1502316917.352020,1502316917.362300] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -101]' interval=[1502316917.951780,1502316917.961870] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -101]' interval=[1502316917.952270,1502316917.962050] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -100]' interval=[1502316918.051360,1502316918.063410]
+READ deviceId=2 key=2 value='[0, 0, 0, -100]' interval=[1502316918.151950,1502316918.161810] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -100]' interval=[1502316918.152490,1502316918.165470] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -100]' interval=[1502316918.251360,1502316918.261740] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -100]' interval=[1502316918.252110,1502316918.261020] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -99]' interval=[1502316918.352480,1502316918.364480]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -98]' interval=[1502316918.451900,1502316918.461750]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -97]' interval=[1502316918.551550,1502316918.561350]
+READ deviceId=2 key=2 value='[0, 0, 0, -97]' interval=[1502316918.752320,1502316918.762710] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -97]' interval=[1502316918.752500,1502316918.765370] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -96]' interval=[1502316918.852110,1502316918.862260]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -95]' interval=[1502316918.951930,1502316918.963470]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -94]' interval=[1502316919.052050,1502316919.061880]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -93]' interval=[1502316919.151650,1502316919.163790]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -92]' interval=[1502316919.751630,1502316919.761560]
+READ deviceId=1 key=2 value='[0, 0, 0, -92]' interval=[1502316919.851750,1502316919.862080] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -92]' interval=[1502316919.852120,1502316919.864620] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -91]' interval=[1502316920.051840,1502316920.064710]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -90]' interval=[1502316920.251300,1502316920.261320]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -89]' interval=[1502316920.352070,1502316920.361810]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -88]' interval=[1502316920.452560,1502316920.463980]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -87]' interval=[1502316920.551360,1502316920.561870]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -86]' interval=[1502316920.652560,1502316920.661320]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -85]' interval=[1502316920.751920,1502316920.763360]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -84]' interval=[1502316920.852330,1502316920.862150]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -83]' interval=[1502316920.951650,1502316920.961230]
+READ deviceId=2 key=2 value='[0, 0, 0, -83]' interval=[1502316921.351740,1502316921.364420] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -83]' interval=[1502316921.352290,1502316921.361530] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -83]' interval=[1502316921.451860,1502316921.462070] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -83]' interval=[1502316921.452010,1502316921.464130] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -82]' interval=[1502316921.551410,1502316921.562030]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -81]' interval=[1502316921.851250,1502316921.861140]
+READ deviceId=2 key=2 value='[0, 0, 0, -81]' interval=[1502316922.051870,1502316922.062110] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -81]' interval=[1502316922.052120,1502316922.063980] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -80]' interval=[1502316922.151510,1502316922.161210]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -79]' interval=[1502316922.251510,1502316922.263430]
+READ deviceId=1 key=2 value='[0, 0, 0, -79]' interval=[1502316922.451680,1502316922.461820] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -79]' interval=[1502316922.452040,1502316922.462670] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -78]' interval=[1502316922.552010,1502316922.563430]
+READ deviceId=1 key=2 value='[0, 0, 0, -78]' interval=[1502316922.652200,1502316922.663430] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -78]' interval=[1502316922.652310,1502316922.661990] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -77]' interval=[1502316922.751800,1502316922.759580]
+READ deviceId=2 key=2 value='[0, 0, 0, -77]' interval=[1502316922.851480,1502316922.863630] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -77]' interval=[1502316922.852140,1502316922.862360] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -76]' interval=[1502316923.052160,1502316923.062020]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -75]' interval=[1502316923.251970,1502316923.261930]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -74]' interval=[1502316923.351600,1502316923.361590]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -73]' interval=[1502316923.552500,1502316923.566000]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -72]' interval=[1502316923.652230,1502316923.662070]
+READ deviceId=2 key=2 value='[0, 0, 0, -72]' interval=[1502316923.751320,1502316923.763400] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -72]' interval=[1502316923.751780,1502316923.765530] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -71]' interval=[1502316923.951870,1502316923.961790]
+READ deviceId=2 key=2 value='[0, 0, 0, -71]' interval=[1502316924.051900,1502316924.063910] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -71]' interval=[1502316924.051980,1502316924.057220] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -70]' interval=[1502316924.152310,1502316924.161900]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -69]' interval=[1502316924.252390,1502316924.261400]
+READ deviceId=1 key=2 value='[0, 0, 0, -69]' interval=[1502316924.451800,1502316924.463820] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -69]' interval=[1502316924.452070,1502316924.462000] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -69]' interval=[1502316924.551440,1502316924.561730] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -69]' interval=[1502316924.552310,1502316924.563150] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -69]' interval=[1502316924.951680,1502316924.961770] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -69]' interval=[1502316924.952310,1502316924.964310] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -68]' interval=[1502316925.052120,1502316925.061550]
+READ deviceId=2 key=2 value='[0, 0, 0, -68]' interval=[1502316925.152060,1502316925.162190] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -68]' interval=[1502316925.152420,1502316925.160890] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -68]' interval=[1502316925.251340,1502316925.263550] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -68]' interval=[1502316925.251680,1502316925.261700] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -67]' interval=[1502316925.351570,1502316925.361470]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -66]' interval=[1502316925.451800,1502316925.461450]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -65]' interval=[1502316925.551750,1502316925.563410]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -64]' interval=[1502316925.752180,1502316925.761360]
+READ deviceId=2 key=2 value='[0, 0, 0, -64]' interval=[1502316925.951630,1502316925.961610] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -64]' interval=[1502316925.952500,1502316925.965620] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -63]' interval=[1502316926.052310,1502316926.062030]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -62]' interval=[1502316926.151620,1502316926.163230]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -61]' interval=[1502316926.251600,1502316926.261600]
+READ deviceId=1 key=2 value='[0, 0, 0, -61]' interval=[1502316926.351970,1502316926.361760] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -61]' interval=[1502316926.352100,1502316926.362160] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -61]' interval=[1502316926.651470,1502316926.661640] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -61]' interval=[1502316926.652400,1502316926.663240] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -60]' interval=[1502316926.752210,1502316926.763510]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -59]' interval=[1502316926.851920,1502316926.861320]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -58]' interval=[1502316926.951910,1502316926.961550]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -57]' interval=[1502316927.051960,1502316927.063170]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -56]' interval=[1502316927.151790,1502316927.161540]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -55]' interval=[1502316927.251820,1502316927.261770]
+READ deviceId=2 key=2 value='[0, 0, 0, -55]' interval=[1502316927.351260,1502316927.363570] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -55]' interval=[1502316927.352490,1502316927.363390] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -55]' interval=[1502316927.551660,1502316927.561160] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -55]' interval=[1502316927.552010,1502316927.561800] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -55]' interval=[1502316927.651630,1502316927.661850] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -55]' interval=[1502316927.652220,1502316927.665000] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -55]' interval=[1502316927.751470,1502316927.866080] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -55]' interval=[1502316927.752320,1502316927.765790] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -55]' interval=[1502316927.852140,1502316927.863700] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -55]' interval=[1502316927.866600,1502316927.869570] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -54]' interval=[1502316927.952230,1502316928.046880]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -53]' interval=[1502316928.051390,1502316928.056610]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -52]' interval=[1502316928.251860,1502316928.279220]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -51]' interval=[1502316928.351840,1502316928.363560]
+READ deviceId=2 key=2 value='[0, 0, 0, -51]' interval=[1502316928.451830,1502316928.460870] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -51]' interval=[1502316928.452210,1502316928.461080] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -51]' interval=[1502316928.551530,1502316928.561320] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -51]' interval=[1502316928.551950,1502316928.562190] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -50]' interval=[1502316928.751830,1502316928.763090]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -49]' interval=[1502316928.851480,1502316928.863050]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -48]' interval=[1502316928.952340,1502316928.964150]
+READ deviceId=2 key=2 value='[0, 0, 0, -48]' interval=[1502316929.152160,1502316929.162660] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -48]' interval=[1502316929.152200,1502316929.160770] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -48]' interval=[1502316929.251840,1502316929.264550] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -48]' interval=[1502316929.252390,1502316929.265680] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -48]' interval=[1502316929.351890,1502316929.362210] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -48]' interval=[1502316929.352310,1502316929.360870] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -48]' interval=[1502316929.451750,1502316929.461800] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -48]' interval=[1502316929.451780,1502316929.463260] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -48]' interval=[1502316929.551960,1502316929.563020] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -48]' interval=[1502316929.552080,1502316929.564090] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -48]' interval=[1502316929.651560,1502316929.661210] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -48]' interval=[1502316929.651620,1502316929.661640] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -48]' interval=[1502316929.751830,1502316929.762190] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -48]' interval=[1502316929.752160,1502316929.760850] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -48]' interval=[1502316929.851390,1502316929.863400] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -48]' interval=[1502316929.852190,1502316929.864380] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -48]' interval=[1502316929.951610,1502316929.961610] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -48]' interval=[1502316929.951890,1502316929.961820] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -47]' interval=[1502316930.151780,1502316930.163870]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -46]' interval=[1502316930.251250,1502316930.261220]
+READ deviceId=1 key=2 value='[0, 0, 0, -46]' interval=[1502316930.451790,1502316930.463930] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -46]' interval=[1502316930.452270,1502316930.464150] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -46]' interval=[1502316930.651310,1502316930.661360] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -46]' interval=[1502316930.652110,1502316930.661410] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -45]' interval=[1502316930.751870,1502316930.763920]
+READ deviceId=2 key=2 value='[0, 0, 0, -45]' interval=[1502316930.851360,1502316930.861690] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -45]' interval=[1502316930.852240,1502316930.861310] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -44]' interval=[1502316930.952360,1502316930.962010]
+READ deviceId=2 key=2 value='[0, 0, 0, -44]' interval=[1502316931.051630,1502316931.057400] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -44]' interval=[1502316931.051660,1502316931.063260] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -43]' interval=[1502316931.152110,1502316931.161880]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -42]' interval=[1502316931.251450,1502316931.261500]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -41]' interval=[1502316931.352170,1502316931.364470]
+READ deviceId=2 key=2 value='[0, 0, 0, -41]' interval=[1502316931.651560,1502316931.663360] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -41]' interval=[1502316931.651790,1502316931.663930] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -41]' interval=[1502316931.751580,1502316931.761460] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -41]' interval=[1502316931.751630,1502316931.762000] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -40]' interval=[1502316931.952490,1502316931.965660]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -39]' interval=[1502316932.051990,1502316932.065370]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -38]' interval=[1502316932.152050,1502316932.161460]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -37]' interval=[1502316932.352700,1502316932.361660]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -36]' interval=[1502316932.452100,1502316932.461850]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -35]' interval=[1502316932.651570,1502316932.661380]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -34]' interval=[1502316932.851970,1502316932.863890]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -33]' interval=[1502316932.951620,1502316932.961350]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -32]' interval=[1502316933.051810,1502316933.061090]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -31]' interval=[1502316933.451880,1502316933.463880]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -30]' interval=[1502316933.751470,1502316933.758410]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -29]' interval=[1502316933.851670,1502316933.861560]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -28]' interval=[1502316934.051600,1502316934.063300]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -27]' interval=[1502316934.151850,1502316934.161410]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -26]' interval=[1502316934.251800,1502316934.262380]
+READ deviceId=1 key=2 value='[0, 0, 0, -26]' interval=[1502316934.351830,1502316934.364010] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -26]' interval=[1502316934.352090,1502316934.364600] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -25]' interval=[1502316934.452130,1502316934.461880]
+READ deviceId=2 key=2 value='[0, 0, 0, -25]' interval=[1502316934.551550,1502316934.561410] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -25]' interval=[1502316934.552040,1502316934.561000] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -24]' interval=[1502316934.651890,1502316934.663530]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -23]' interval=[1502316934.851500,1502316934.861740]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -22]' interval=[1502316934.952470,1502316934.963270]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -21]' interval=[1502316935.051880,1502316935.061280]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -20]' interval=[1502316935.151860,1502316935.161670]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -19]' interval=[1502316935.252300,1502316935.263380]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -18]' interval=[1502316935.351530,1502316935.361320]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -17]' interval=[1502316935.452040,1502316935.461650]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -16]' interval=[1502316935.652120,1502316935.661830]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -15]' interval=[1502316935.751310,1502316935.761850]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -14]' interval=[1502316935.852000,1502316935.863120]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -13]' interval=[1502316936.052230,1502316936.060620]
+READ deviceId=1 key=2 value='[0, 0, 0, -13]' interval=[1502316936.151870,1502316936.159470] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -13]' interval=[1502316936.152170,1502316936.164780] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -12]' interval=[1502316936.252190,1502316936.264730]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -11]' interval=[1502316936.452310,1502316936.463920]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -10]' interval=[1502316936.552170,1502316936.561700]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -9]' interval=[1502316936.652130,1502316936.661830]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -8]' interval=[1502316936.751340,1502316936.759360]
+READ deviceId=1 key=2 value='[0, 0, 0, -8]' interval=[1502316936.851510,1502316936.861450] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -8]' interval=[1502316936.851630,1502316936.861750] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -8]' interval=[1502316936.951250,1502316936.961280] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -8]' interval=[1502316936.952060,1502316936.961150] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -7]' interval=[1502316937.152120,1502316937.161600]
+READ deviceId=1 key=2 value='[0, 0, 0, -7]' interval=[1502316937.251790,1502316937.261910] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -7]' interval=[1502316937.252130,1502316937.262290] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -6]' interval=[1502316937.352130,1502316937.364310]
+READ deviceId=1 key=2 value='[0, 0, 0, -6]' interval=[1502316937.451520,1502316937.461680] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 0, -6]' interval=[1502316937.451800,1502316937.465960] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -5]' interval=[1502316937.651600,1502316937.663480]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -4]' interval=[1502316937.752030,1502316937.761920]
+WRITE deviceId=2 key=2 value='[0, 0, 0, -3]' interval=[1502316937.851710,1502316937.862080]
+READ deviceId=2 key=2 value='[0, 0, 0, -3]' interval=[1502316937.951360,1502316937.963440] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -3]' interval=[1502316937.952210,1502316937.962730] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -2]' interval=[1502316938.051830,1502316938.061240]
+READ deviceId=2 key=2 value='[0, 0, 0, -2]' interval=[1502316938.151610,1502316938.161610] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 0, -2]' interval=[1502316938.151980,1502316938.161840] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 0, -1]' interval=[1502316938.251920,1502316938.264430]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 0]' interval=[1502316938.351660,1502316938.361750]
+READ deviceId=1 key=2 value='[0, 0, 1, 0]' interval=[1502316938.651390,1502316938.661850] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 0]' interval=[1502316938.651880,1502316938.661810] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 1]' interval=[1502316938.752920,1502316938.763510]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 2]' interval=[1502316938.851800,1502316938.863290]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 3]' interval=[1502316938.951970,1502316938.961740]
+READ deviceId=2 key=2 value='[0, 0, 1, 3]' interval=[1502316939.051590,1502316939.061520] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 3]' interval=[1502316939.052240,1502316939.063290] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 4]' interval=[1502316939.152160,1502316939.164030]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 5]' interval=[1502316939.254000,1502316939.264900]
+READ deviceId=1 key=2 value='[0, 0, 1, 5]' interval=[1502316939.451960,1502316939.463950] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 5]' interval=[1502316939.452410,1502316939.464780] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 6]' interval=[1502316939.552040,1502316939.561810]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 7]' interval=[1502316939.652280,1502316939.662180]
+READ deviceId=1 key=2 value='[0, 0, 1, 7]' interval=[1502316939.752490,1502316939.765570] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 7]' interval=[1502316939.754190,1502316939.762880] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 7]' interval=[1502316939.951610,1502316939.967830] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 7]' interval=[1502316939.951940,1502316939.963510] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 8]' interval=[1502316940.052490,1502316940.063860]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 9]' interval=[1502316940.151800,1502316940.161520]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 10]' interval=[1502316940.253920,1502316940.265510]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 11]' interval=[1502316940.351790,1502316940.363610]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 12]' interval=[1502316940.451660,1502316940.462210]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 13]' interval=[1502316940.652060,1502316940.665670]
+READ deviceId=1 key=2 value='[0, 0, 1, 13]' interval=[1502316940.851490,1502316940.865840] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 13]' interval=[1502316940.852080,1502316940.866080] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 14]' interval=[1502316940.951780,1502316940.963330]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 15]' interval=[1502316941.051910,1502316941.060980]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 16]' interval=[1502316941.151710,1502316941.161570]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 17]' interval=[1502316941.254210,1502316941.271030]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 18]' interval=[1502316941.451780,1502316941.462240]
+READ deviceId=1 key=2 value='[0, 0, 1, 18]' interval=[1502316941.551370,1502316941.563580] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 18]' interval=[1502316941.551560,1502316941.563550] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 19]' interval=[1502316941.652360,1502316941.662150]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 20]' interval=[1502316941.752550,1502316941.762360]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 21]' interval=[1502316941.852310,1502316941.864230]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 22]' interval=[1502316941.951860,1502316941.961730]
+READ deviceId=2 key=2 value='[0, 0, 1, 22]' interval=[1502316942.351560,1502316942.361950] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 22]' interval=[1502316942.352420,1502316942.360830] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 23]' interval=[1502316942.452090,1502316942.463930]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 24]' interval=[1502316942.651980,1502316942.661630]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 25]' interval=[1502316942.851470,1502316942.862000]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 26]' interval=[1502316942.951610,1502316942.961650]
+READ deviceId=1 key=2 value='[0, 0, 1, 26]' interval=[1502316943.051830,1502316943.065250] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 26]' interval=[1502316943.052290,1502316943.064260] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 27]' interval=[1502316943.151910,1502316943.161390]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 28]' interval=[1502316943.251940,1502316943.266290]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 29]' interval=[1502316943.352000,1502316943.363930]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 30]' interval=[1502316943.551670,1502316943.561120]
+READ deviceId=1 key=2 value='[0, 0, 1, 30]' interval=[1502316943.651580,1502316943.664410] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 30]' interval=[1502316943.652510,1502316943.664530] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 31]' interval=[1502316943.752260,1502316943.762170]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 32]' interval=[1502316943.851890,1502316943.861940]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 33]' interval=[1502316943.951880,1502316943.963850]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 34]' interval=[1502316944.151810,1502316944.161800]
+READ deviceId=1 key=2 value='[0, 0, 1, 34]' interval=[1502316944.252070,1502316944.263000] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 34]' interval=[1502316944.253960,1502316944.272050] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 34]' interval=[1502316944.351500,1502316944.361790] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 34]' interval=[1502316944.351590,1502316944.361910] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 34]' interval=[1502316944.852000,1502316944.868540] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 34]' interval=[1502316944.852270,1502316944.867390] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 35]' interval=[1502316944.951880,1502316944.961420]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 36]' interval=[1502316945.051960,1502316945.057940]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 37]' interval=[1502316945.151740,1502316945.163850]
+READ deviceId=1 key=2 value='[0, 0, 1, 37]' interval=[1502316945.251430,1502316945.261910] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 37]' interval=[1502316945.255080,1502316945.266760] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 38]' interval=[1502316945.351720,1502316945.361890]
+READ deviceId=2 key=2 value='[0, 0, 1, 38]' interval=[1502316945.451710,1502316945.464180] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 38]' interval=[1502316945.452150,1502316945.463280] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 39]' interval=[1502316945.551540,1502316945.560990]
+READ deviceId=1 key=2 value='[0, 0, 1, 39]' interval=[1502316945.751330,1502316945.763450] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 39]' interval=[1502316945.752200,1502316945.770000] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 40]' interval=[1502316945.851890,1502316945.861190]
+READ deviceId=2 key=2 value='[0, 0, 1, 40]' interval=[1502316945.951600,1502316945.961980] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 40]' interval=[1502316945.951930,1502316945.961950] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 41]' interval=[1502316946.051320,1502316946.063030]
+READ deviceId=1 key=2 value='[0, 0, 1, 41]' interval=[1502316946.251620,1502316946.261840] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 41]' interval=[1502316946.252190,1502316946.267760] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 42]' interval=[1502316946.351590,1502316946.363670]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 43]' interval=[1502316946.552410,1502316946.561810]
+READ deviceId=1 key=2 value='[0, 0, 1, 43]' interval=[1502316946.752110,1502316946.763670] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 43]' interval=[1502316946.757360,1502316946.772710] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 44]' interval=[1502316946.852180,1502316946.861890]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 45]' interval=[1502316946.952500,1502316946.964350]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 46]' interval=[1502316947.152310,1502316947.162030]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 47]' interval=[1502316947.251540,1502316947.265260]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 48]' interval=[1502316947.352390,1502316947.362150]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 49]' interval=[1502316947.552330,1502316947.564180]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 50]' interval=[1502316947.651740,1502316947.661330]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 51]' interval=[1502316947.851560,1502316947.863250]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 52]' interval=[1502316947.952140,1502316947.961450]
+READ deviceId=1 key=2 value='[0, 0, 1, 52]' interval=[1502316948.051430,1502316948.062120] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 52]' interval=[1502316948.052100,1502316948.062220] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 52]' interval=[1502316948.151610,1502316948.163890] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 52]' interval=[1502316948.151920,1502316948.163890] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 53]' interval=[1502316948.252280,1502316948.265480]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 54]' interval=[1502316948.451740,1502316948.463590]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 55]' interval=[1502316948.552720,1502316948.561480]
+READ deviceId=2 key=2 value='[0, 0, 1, 55]' interval=[1502316948.651750,1502316948.661910] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 55]' interval=[1502316948.652350,1502316948.661130] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 56]' interval=[1502316948.851520,1502316948.861280]
+READ deviceId=2 key=2 value='[0, 0, 1, 56]' interval=[1502316949.151580,1502316949.165900] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 56]' interval=[1502316949.152240,1502316949.161320] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 57]' interval=[1502316949.252120,1502316949.261770]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 58]' interval=[1502316949.351990,1502316949.364160]
+READ deviceId=1 key=2 value='[0, 0, 1, 58]' interval=[1502316949.451540,1502316949.461820] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 58]' interval=[1502316949.451620,1502316949.461830] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 59]' interval=[1502316949.551630,1502316949.561420]
+READ deviceId=1 key=2 value='[0, 0, 1, 59]' interval=[1502316949.651690,1502316949.664030] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 59]' interval=[1502316949.651940,1502316949.663530] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 60]' interval=[1502316949.752080,1502316949.763060]
+READ deviceId=2 key=2 value='[0, 0, 1, 60]' interval=[1502316949.851550,1502316949.861860] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 60]' interval=[1502316949.851630,1502316949.861870] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 61]' interval=[1502316949.951540,1502316949.963140]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 62]' interval=[1502316950.151700,1502316950.161280]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 63]' interval=[1502316950.251870,1502316950.263510]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 64]' interval=[1502316950.651510,1502316950.661380]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 65]' interval=[1502316950.751770,1502316950.764780]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 66]' interval=[1502316950.852500,1502316950.863860]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 67]' interval=[1502316950.951830,1502316950.961790]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 68]' interval=[1502316951.052170,1502316951.061760]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 69]' interval=[1502316951.152020,1502316951.163370]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 70]' interval=[1502316951.352030,1502316951.362280]
+READ deviceId=1 key=2 value='[0, 0, 1, 70]' interval=[1502316951.451650,1502316951.463880] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 70]' interval=[1502316951.452350,1502316951.464650] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 70]' interval=[1502316951.552240,1502316951.562780] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 70]' interval=[1502316951.552300,1502316951.563950] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 71]' interval=[1502316951.751710,1502316951.763070]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 72]' interval=[1502316951.851810,1502316951.858190]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 73]' interval=[1502316951.951710,1502316951.961540]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 74]' interval=[1502316952.052130,1502316952.063640]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 75]' interval=[1502316952.152240,1502316952.161730]
+READ deviceId=2 key=2 value='[0, 0, 1, 75]' interval=[1502316952.351670,1502316952.364400] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 75]' interval=[1502316952.352330,1502316952.363910] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 76]' interval=[1502316952.452010,1502316952.461940]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 77]' interval=[1502316952.751590,1502316952.761070]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 78]' interval=[1502316952.851850,1502316952.862010]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 79]' interval=[1502316952.951620,1502316952.963390]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 80]' interval=[1502316953.052010,1502316953.062380]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 81]' interval=[1502316953.152030,1502316953.161900]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 82]' interval=[1502316953.251570,1502316953.265560]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 83]' interval=[1502316953.352200,1502316953.365170]
+READ deviceId=1 key=2 value='[0, 0, 1, 83]' interval=[1502316953.451540,1502316953.461650] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 83]' interval=[1502316953.451860,1502316953.466230] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 84]' interval=[1502316953.551790,1502316953.563270]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 85]' interval=[1502316953.651900,1502316953.661400]
+READ deviceId=1 key=2 value='[0, 0, 1, 85]' interval=[1502316953.851990,1502316953.865570] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 85]' interval=[1502316953.852510,1502316953.864470] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 85]' interval=[1502316953.952160,1502316953.962270] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 85]' interval=[1502316953.952250,1502316953.961180] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 86]' interval=[1502316954.051790,1502316954.061260]
+READ deviceId=1 key=2 value='[0, 0, 1, 86]' interval=[1502316954.452150,1502316954.463400] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 86]' interval=[1502316954.452480,1502316954.464880] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 86]' interval=[1502316954.651920,1502316954.661360] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 86]' interval=[1502316954.651970,1502316954.661750] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 86]' interval=[1502316954.752050,1502316954.764220] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 86]' interval=[1502316954.752290,1502316954.764220] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 87]' interval=[1502316954.951920,1502316954.961540]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 88]' interval=[1502316955.052240,1502316955.063600]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 89]' interval=[1502316955.152180,1502316955.161610]
+READ deviceId=2 key=2 value='[0, 0, 1, 89]' interval=[1502316955.252140,1502316955.262020] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 89]' interval=[1502316955.252420,1502316955.261650] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 89]' interval=[1502316955.351330,1502316955.364190] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 89]' interval=[1502316955.351970,1502316955.362760] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 90]' interval=[1502316955.552300,1502316955.562060]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 91]' interval=[1502316955.752180,1502316955.762140]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 92]' interval=[1502316955.851710,1502316955.861470]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 93]' interval=[1502316956.051630,1502316956.060980]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 94]' interval=[1502316956.451860,1502316956.461740]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 95]' interval=[1502316956.551330,1502316956.563650]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 96]' interval=[1502316956.651640,1502316956.661400]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 97]' interval=[1502316956.751740,1502316956.761340]
+READ deviceId=1 key=2 value='[0, 0, 1, 97]' interval=[1502316956.851460,1502316956.864030] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 97]' interval=[1502316956.851960,1502316956.864010] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 98]' interval=[1502316956.951550,1502316956.961410]
+READ deviceId=1 key=2 value='[0, 0, 1, 98]' interval=[1502316957.051580,1502316957.061900] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 98]' interval=[1502316957.051870,1502316957.061790] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 98]' interval=[1502316957.151870,1502316957.164330] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 98]' interval=[1502316957.152580,1502316957.166170] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 99]' interval=[1502316957.351960,1502316957.361550]
+READ deviceId=2 key=2 value='[0, 0, 1, 99]' interval=[1502316957.551800,1502316957.564190] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 99]' interval=[1502316957.551980,1502316957.561110] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 100]' interval=[1502316957.751640,1502316957.762870]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 101]' interval=[1502316957.852500,1502316957.858240]
+READ deviceId=1 key=2 value='[0, 0, 1, 101]' interval=[1502316957.951480,1502316957.965720] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 101]' interval=[1502316957.951740,1502316957.961840] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 102]' interval=[1502316958.052500,1502316958.064110]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 103]' interval=[1502316958.151610,1502316958.161180]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 104]' interval=[1502316958.251800,1502316958.261630]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 105]' interval=[1502316958.352160,1502316958.363510]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 106]' interval=[1502316958.452500,1502316958.462120]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 107]' interval=[1502316958.652500,1502316958.664070]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 108]' interval=[1502316958.751570,1502316958.760990]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 109]' interval=[1502316958.851370,1502316958.860880]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 110]' interval=[1502316959.052100,1502316959.061690]
+READ deviceId=1 key=2 value='[0, 0, 1, 110]' interval=[1502316959.252050,1502316959.264110] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 110]' interval=[1502316959.252110,1502316959.264180] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 111]' interval=[1502316959.351590,1502316959.361230]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 112]' interval=[1502316959.451560,1502316959.461400]
+READ deviceId=2 key=2 value='[0, 0, 1, 112]' interval=[1502316959.752400,1502316959.762330] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 112]' interval=[1502316959.752420,1502316959.761330] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 113]' interval=[1502316960.052440,1502316960.073280]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 114]' interval=[1502316960.352210,1502316960.361770]
+READ deviceId=1 key=2 value='[0, 0, 1, 114]' interval=[1502316960.451550,1502316960.463650] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 114]' interval=[1502316960.451740,1502316960.464090] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 115]' interval=[1502316960.651530,1502316960.660790]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 116]' interval=[1502316960.852330,1502316960.857420]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 117]' interval=[1502316961.052120,1502316961.063630]
+READ deviceId=2 key=2 value='[0, 0, 1, 117]' interval=[1502316961.251730,1502316961.261910] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 117]' interval=[1502316961.251960,1502316961.262380] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 117]' interval=[1502316961.351320,1502316961.363900] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 117]' interval=[1502316961.351920,1502316961.364200] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 118]' interval=[1502316961.451560,1502316961.461380]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 119]' interval=[1502316961.551740,1502316961.561530]
+READ deviceId=1 key=2 value='[0, 0, 1, 119]' interval=[1502316961.651790,1502316961.664220] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 119]' interval=[1502316961.652130,1502316961.664310] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 120]' interval=[1502316961.852510,1502316961.864700]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 121]' interval=[1502316962.051550,1502316962.061270]
+READ deviceId=2 key=2 value='[0, 0, 1, 121]' interval=[1502316962.151640,1502316962.161360] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 122]' interval=[1502316962.251910,1502316962.263390]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 123]' interval=[1502316962.351800,1502316962.361870]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 124]' interval=[1502316962.451460,1502316962.461620]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 125]' interval=[1502316962.552150,1502316962.563560]
+READ deviceId=1 key=2 value='[0, 0, 1, 125]' interval=[1502316962.651610,1502316962.661670] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 125]' interval=[1502316962.652230,1502316962.662240] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 125]' interval=[1502316962.751470,1502316962.761590] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, 125]' interval=[1502316962.751540,1502316962.761600] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, 126]' interval=[1502316962.852090,1502316962.863970]
+WRITE deviceId=2 key=2 value='[0, 0, 1, 127]' interval=[1502316963.151540,1502316963.162870]
+READ deviceId=1 key=2 value='[0, 0, 1, 127]' interval=[1502316963.251400,1502316963.257390] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, 127]' interval=[1502316963.252480,1502316963.262400] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -128]' interval=[1502316963.351680,1502316963.362410]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -127]' interval=[1502316963.452070,1502316963.463900]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -126]' interval=[1502316963.551390,1502316963.560980]
+READ deviceId=2 key=2 value='[0, 0, 1, -126]' interval=[1502316963.751480,1502316963.764350] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -126]' interval=[1502316963.752210,1502316963.763570] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -126]' interval=[1502316964.051830,1502316964.063960] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -126]' interval=[1502316964.052230,1502316964.063340] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -125]' interval=[1502316964.252260,1502316964.261970]
+READ deviceId=2 key=2 value='[0, 0, 1, -125]' interval=[1502316964.451530,1502316964.461550] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -125]' interval=[1502316964.451680,1502316964.461860] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -124]' interval=[1502316964.552350,1502316964.561920]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -123]' interval=[1502316964.752280,1502316964.762160]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -122]' interval=[1502316964.951880,1502316964.964150]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -121]' interval=[1502316965.051800,1502316965.061730]
+READ deviceId=2 key=2 value='[0, 0, 1, -121]' interval=[1502316965.251610,1502316965.263490] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -121]' interval=[1502316965.251740,1502316965.264120] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -120]' interval=[1502316965.351970,1502316965.363500]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -119]' interval=[1502316965.451750,1502316965.461850]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -118]' interval=[1502316965.551360,1502316965.563460]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -117]' interval=[1502316965.651950,1502316965.661520]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -116]' interval=[1502316965.751870,1502316965.761650]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -115]' interval=[1502316965.852090,1502316965.864080]
+READ deviceId=2 key=2 value='[0, 0, 1, -115]' interval=[1502316965.951590,1502316965.961640] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -115]' interval=[1502316965.951720,1502316965.961870] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -114]' interval=[1502316966.052340,1502316966.067560]
+READ deviceId=1 key=2 value='[0, 0, 1, -114]' interval=[1502316966.151470,1502316966.163820] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -114]' interval=[1502316966.151980,1502316966.165990] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -113]' interval=[1502316966.252210,1502316966.266310]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -112]' interval=[1502316966.351640,1502316966.361680]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -111]' interval=[1502316966.452400,1502316966.464360]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -110]' interval=[1502316966.551600,1502316966.561620]
+READ deviceId=2 key=2 value='[0, 0, 1, -110]' interval=[1502316966.852140,1502316966.861880] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -110]' interval=[1502316966.852300,1502316966.860960] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -109]' interval=[1502316966.951430,1502316966.961250]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -108]' interval=[1502316967.051790,1502316967.063310]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -107]' interval=[1502316967.151660,1502316967.161610]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -106]' interval=[1502316967.251910,1502316967.261460]
+READ deviceId=2 key=2 value='[0, 0, 1, -106]' interval=[1502316967.351630,1502316967.364220] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -106]' interval=[1502316967.352450,1502316967.365340] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -106]' interval=[1502316967.451490,1502316967.461370] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -106]' interval=[1502316967.451600,1502316967.461820] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -105]' interval=[1502316967.552170,1502316967.561890]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -104]' interval=[1502316967.752080,1502316967.761620]
+READ deviceId=1 key=2 value='[0, 0, 1, -104]' interval=[1502316967.851930,1502316967.862950] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -104]' interval=[1502316967.851990,1502316967.862400] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -104]' interval=[1502316968.051680,1502316968.061690] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -104]' interval=[1502316968.051930,1502316968.062870] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -103]' interval=[1502316968.151340,1502316968.161240]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -102]' interval=[1502316968.251760,1502316968.263340]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -101]' interval=[1502316968.452240,1502316968.462090]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -100]' interval=[1502316968.652020,1502316968.661560]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -99]' interval=[1502316968.751630,1502316968.763340]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -98]' interval=[1502316968.851770,1502316968.864020]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -97]' interval=[1502316968.951410,1502316968.961120]
+READ deviceId=2 key=2 value='[0, 0, 1, -97]' interval=[1502316969.051640,1502316969.061620] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -97]' interval=[1502316969.052090,1502316969.062790] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -97]' interval=[1502316969.152050,1502316969.162970] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -97]' interval=[1502316969.152090,1502316969.164090] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -96]' interval=[1502316969.251560,1502316969.261200]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -95]' interval=[1502316969.452390,1502316969.464120]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -94]' interval=[1502316969.551530,1502316969.561610]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -93]' interval=[1502316969.652170,1502316969.661570]
+READ deviceId=2 key=2 value='[0, 0, 1, -93]' interval=[1502316969.751840,1502316969.763950] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -93]' interval=[1502316969.752080,1502316969.763020] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -93]' interval=[1502316969.851340,1502316969.862470] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -93]' interval=[1502316969.852230,1502316969.861400] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -92]' interval=[1502316969.951900,1502316969.957710]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -91]' interval=[1502316970.052440,1502316970.064080]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -90]' interval=[1502316970.151630,1502316970.161710]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -89]' interval=[1502316970.251890,1502316970.261900]
+READ deviceId=1 key=2 value='[0, 0, 1, -89]' interval=[1502316970.351710,1502316970.363390] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -89]' interval=[1502316970.352170,1502316970.366050] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -88]' interval=[1502316970.451480,1502316970.465450]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -87]' interval=[1502316970.552120,1502316970.563040]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -86]' interval=[1502316970.651730,1502316970.663340]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -85]' interval=[1502316970.751820,1502316970.761750]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -84]' interval=[1502316970.951690,1502316970.963560]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -83]' interval=[1502316971.051640,1502316971.061450]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -82]' interval=[1502316971.351880,1502316971.361840]
+READ deviceId=1 key=2 value='[0, 0, 1, -82]' interval=[1502316971.451610,1502316971.464090] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -82]' interval=[1502316971.452210,1502316971.462330] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -81]' interval=[1502316971.651650,1502316971.661230]
+READ deviceId=2 key=2 value='[0, 0, 1, -81]' interval=[1502316971.751950,1502316971.763490] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -81]' interval=[1502316971.751970,1502316971.760850] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -81]' interval=[1502316971.851590,1502316971.863820] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -81]' interval=[1502316971.852160,1502316971.865640] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -80]' interval=[1502316971.952340,1502316971.963370]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -79]' interval=[1502316972.051880,1502316972.061530]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -78]' interval=[1502316972.152030,1502316972.165250]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -77]' interval=[1502316972.252650,1502316972.262280]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -76]' interval=[1502316972.351810,1502316972.362690]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -75]' interval=[1502316972.452060,1502316972.463680]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -74]' interval=[1502316972.551560,1502316972.561280]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -73]' interval=[1502316972.651870,1502316972.661470]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -72]' interval=[1502316972.851490,1502316972.860940]
+READ deviceId=1 key=2 value='[0, 0, 1, -72]' interval=[1502316972.951720,1502316972.961800] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -72]' interval=[1502316972.951960,1502316972.958020] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -71]' interval=[1502316973.052280,1502316973.063920]
+READ deviceId=2 key=2 value='[0, 0, 1, -71]' interval=[1502316973.151360,1502316973.161690] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -71]' interval=[1502316973.151580,1502316973.161510] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -70]' interval=[1502316973.251700,1502316973.261440]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -69]' interval=[1502316973.352020,1502316973.365320]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -68]' interval=[1502316973.652110,1502316973.663860]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -67]' interval=[1502316973.851770,1502316973.861580]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -66]' interval=[1502316973.951650,1502316973.965310]
+READ deviceId=1 key=2 value='[0, 0, 1, -66]' interval=[1502316974.052000,1502316974.062300] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -66]' interval=[1502316974.052100,1502316974.062060] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -65]' interval=[1502316974.151580,1502316974.161900]
+READ deviceId=2 key=2 value='[0, 0, 1, -65]' interval=[1502316974.251660,1502316974.263590] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -65]' interval=[1502316974.251910,1502316974.263840] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -64]' interval=[1502316974.352210,1502316974.363090]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -63]' interval=[1502316974.551790,1502316974.564520]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -62]' interval=[1502316974.652200,1502316974.664900]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -61]' interval=[1502316974.752250,1502316974.765780]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -60]' interval=[1502316974.952420,1502316974.963440]
+READ deviceId=1 key=2 value='[0, 0, 1, -60]' interval=[1502316975.051630,1502316975.062820] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -60]' interval=[1502316975.052290,1502316975.062710] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -59]' interval=[1502316975.152310,1502316975.164490]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -58]' interval=[1502316975.252170,1502316975.261980]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -57]' interval=[1502316975.551790,1502316975.561880]
+READ deviceId=1 key=2 value='[0, 0, 1, -57]' interval=[1502316975.651900,1502316975.660910] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -57]' interval=[1502316975.652100,1502316975.662410] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -57]' interval=[1502316975.751640,1502316975.763930] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -57]' interval=[1502316975.752400,1502316975.763170] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -56]' interval=[1502316975.952200,1502316975.957740]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -55]' interval=[1502316976.052280,1502316976.063950]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -54]' interval=[1502316976.151550,1502316976.161470]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -53]' interval=[1502316976.252070,1502316976.261760]
+READ deviceId=2 key=2 value='[0, 0, 1, -53]' interval=[1502316976.352130,1502316976.364830] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -53]' interval=[1502316976.352250,1502316976.362970] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -52]' interval=[1502316976.452030,1502316976.461890]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -51]' interval=[1502316976.551710,1502316976.561870]
+READ deviceId=1 key=2 value='[0, 0, 1, -51]' interval=[1502316976.651710,1502316976.663800] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -51]' interval=[1502316976.651820,1502316976.663870] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -50]' interval=[1502316976.852110,1502316976.864690]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -49]' interval=[1502316976.952150,1502316976.964410]
+READ deviceId=2 key=2 value='[0, 0, 1, -49]' interval=[1502316977.051980,1502316977.062090] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -49]' interval=[1502316977.052280,1502316977.060750] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -48]' interval=[1502316977.151410,1502316977.162930]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -47]' interval=[1502316977.251390,1502316977.263320]
+READ deviceId=2 key=2 value='[0, 0, 1, -47]' interval=[1502316977.351610,1502316977.365600] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -47]' interval=[1502316977.351660,1502316977.361790] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -46]' interval=[1502316977.451480,1502316977.461320]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -45]' interval=[1502316977.551840,1502316977.563940]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -44]' interval=[1502316977.651910,1502316977.661670]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -43]' interval=[1502316977.752350,1502316977.763160]
+READ deviceId=2 key=2 value='[0, 0, 1, -43]' interval=[1502316977.851520,1502316977.864570] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -43]' interval=[1502316977.852300,1502316977.863790] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -43]' interval=[1502316977.951670,1502316977.961570] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -43]' interval=[1502316977.952580,1502316977.963510] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -43]' interval=[1502316978.051980,1502316978.061700] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -43]' interval=[1502316978.052220,1502316978.062170] 0 0.000000
+READ deviceId=2 key=2 value='[0, 0, 1, -43]' interval=[1502316978.151340,1502316978.165170] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -43]' interval=[1502316978.152320,1502316978.165310] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -42]' interval=[1502316978.251670,1502316978.261260]
+READ deviceId=2 key=2 value='[0, 0, 1, -42]' interval=[1502316978.351660,1502316978.365770] 0 0.000000
+READ deviceId=1 key=2 value='[0, 0, 1, -42]' interval=[1502316978.351750,1502316978.358280] 0 0.000000
+WRITE deviceId=2 key=2 value='[0, 0, 1, -41]' interval=[1502316978.452050,1502316978.464170]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -40]' interval=[1502316978.551940,1502316978.562010]
+WRITE deviceId=2 key=2 value='[0, 0, 1, -39]' interval=[1502316978.652020,1502316978.661950]
+operation Count|count=883|avg=1.000000|stddev=0.000000|min=1.000000|max=1.000000
+read Count|count=409|avg=1.000000|stddev=0.000000|min=1.000000|max=1.000000
+latency|count=883|avg=0.011391|stddev=0.007009|min=0.002970|max=0.144780
+time lag|count=409|avg=0.000000|stddev=0.000000|min=0.000000|max=0.000000
+version lag|count=409|avg=0.000000|stddev=0.000000|min=0.000000|max=0.000000
+read errors|count=0|avg=NaN|stddev=NaN|min=179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000|max=0.000000
+operation Count|count=1798|avg=1.000000|stddev=0.000000|min=1.000000|max=1.000000
+read Count|count=850|avg=1.000000|stddev=0.000000|min=1.000000|max=1.000000
+latency|count=1798|avg=0.011193|stddev=0.006501|min=0.002970|max=0.144980
+time lag|count=850|avg=0.000000|stddev=0.000000|min=0.000000|max=0.000000
+version lag|count=850|avg=0.000000|stddev=0.000000|min=0.000000|max=0.000000
+read errors|count=0|avg=NaN|stddev=NaN|min=179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000000|max=0.000000
