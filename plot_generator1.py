@@ -10,6 +10,8 @@ import plotly
 import math
 import plotly.plotly as py
 
+import numpy.random
+
 
 def myround(n):
     if n == 0:
@@ -54,6 +56,7 @@ for d in days:
 
 print(bench_dirs)
 
+writes_rate = set()
 property_dic_devices = {2:{} , 4:{}}
 for conf_count in conf_counts:
     property_dic = {"nPC": pp().property_dic_nPC, "1PnC": pp().property_dic_1PnC, "nP1C":pp().property_dic_nP1C}
@@ -72,8 +75,11 @@ for conf_count in conf_counts:
                 config = configparser.ConfigParser()
                 config.read_string(config_string)
 
-                rate = int(config.get("dummy_section", "workload.rate"))
+                rate1 = int(config.get("dummy_section", "workload.rate"))
                 ratio = float(config.get("dummy_section", "workload.readRatio"))
+                if ratio == 0 or ratio == 0.5:
+                    writes_rate.add(rate1)
+                    rate = rate1
                 kvs = config.get("dummy_section","general.kvs")
                 churn_p = config.get("dummy_section","general.churn.enable")
 
@@ -101,30 +107,31 @@ for conf_count in conf_counts:
                 if kvs == "Tomp2p" and churn == "True":
                     kvs = "Tomp2p with Churn"
 
-                rp = subprocess.check_output(['tail', '-6', b + "/report.txt"])
-                rp = rp.decode("ascii")
-                rp = rp.split("\n")
-                rp = rp[:-1]
-                # print("Redis "+str(property_dic["Redis"]))
-                # print("Tomp2p "+str(property_dic["Tomp2p"]))
-                for line in rp:
+            rp = subprocess.check_output(['tail', '-6', b + "/report.txt"])
+            rp = rp.decode("ascii")
+            rp = rp.split("\n")
+            rp = rp[:-1]
+            # print("Redis "+str(property_dic["Redis"]))
+            # print("Tomp2p "+str(property_dic["Tomp2p"]))
+            for line in rp:
 
-                    vl = line.split("|")
-                    key_p = vl[0]
-                    count = vl[1].split("=")[1]
-                    avg = vl[2].split("=")[1]
-                    stddev = vl[3].split("=")[1]
-                    min1 = vl[4].split("=")[1]
-                    max1 = vl[5].split("=")[1]
+                vl = line.split("|")
+                key_p = vl[0]
+                count = vl[1].split("=")[1]
+                avg = vl[2].split("=")[1]
+                stddev = vl[3].split("=")[1]
+                min1 = vl[4].split("=")[1]
+                max1 = vl[5].split("=")[1]
 
-                    if rate not in property_dic[nt][kvs][key_p]:
-                        property_dic[nt][kvs][key_p][rate] = []
-                    property_dic[nt][kvs][key_p][rate].append({"count": count, "avg": avg, "stddev": stddev, "min": min1, "max": max1})
+                if rate not in property_dic[nt][kvs][key_p]:
+                    property_dic[nt][kvs][key_p][rate] = []
+                property_dic[nt][kvs][key_p][rate].append({"count": count, "avg": avg, "stddev": stddev, "min": min1, "max": max1})
 
     property_dic_devices[conf_count] = property_dic
 
 all_pk = ["latency", "time lag", "version lag"]
 all_pt = ["count", "avg", "stddev", "min", "max"]
+
 
 result1 = {}
 
@@ -142,12 +149,10 @@ for k in all_pk:
             yerrmax = []
             yerrmin = []
             print("     devices: " + str(d))
-            for r in [10, 100, 1000]:
+            for r in [1000, 100, 10]:
                 print("         rate: " + str(r))
                 for n in ["nPC", "1PnC", "nP1C"]:
                     print("             "+n)
-
-
                     sd = [float(c["avg"]) for c in property_dic_devices[d][n][t][k][r]]
                     sd3 = [float(c["stddev"]) for c in property_dic_devices[d][n][t][k][r]]
                     sd1 = [float(c["max"]) for c in property_dic_devices[d][n][t][k][r]]
@@ -158,28 +163,52 @@ for k in all_pk:
                     ymax.append(max(sd1))
                     yerrmax.append(abs(max(sd3)))
                     yerrmin.append(abs(min(sd3)))
-            data += [
-                go.Bar(
-                    x=["10", "100", "1000"],
-                    y=list(yd),
-                    text=list([myround(x) for x in yd]),
-                    textposition='auto',
-                    error_y=dict(
-                        type="data",
-                        array=yerrmax,
-                        arrayminus=yerrmin
+            if d == 2:
+                data += [
+                    go.Bar(
+                        x=["1", "10", "100"],
+                        y=list(yd),
+                        text=list([myround(x) for x in yd]),
+                        textposition='top',
+                        error_y=dict(
+                            type="data",
+                            array=yerrmax,
+                            arrayminus=yerrmin
+                        ),
+                        name=str(d)
                     ),
-                    name=str(d)
-                ),
-                go.Scatter(
-                    x=["10", "100", "1000"],
-                    y=ymax,
-                    text=list([myround(x) for x in ymax]),
-                    textposition='top',
-                    mode="markers+lines+text",
-                    name=str(d) + " max"
-                )
-            ]
+                    go.Scatter(
+                        x=["1", "10", "100"],
+                        y=ymax,
+                        text=list([myround(x) for x in ymax]),
+                        textposition='bottom',
+                        mode="markers+lines+text",
+                        name=str(d) + " max"
+                    )
+                ]
+            else:
+                data += [
+                    go.Bar(
+                        x=["1", "10", "100"],
+                        y=list(yd),
+                        text=list([myround(x) for x in yd]),
+                        textposition='top',
+                        error_y=dict(
+                            type="data",
+                            array=yerrmax,
+                            arrayminus=yerrmin
+                        ),
+                        name=str(d)
+                    ),
+                    go.Scatter(
+                        x=["1", "10", "100"],
+                        y=ymax,
+                        text=list([myround(x) for x in ymax]),
+                        textposition='top',
+                        mode="markers+lines+text",
+                        name=str(d) + " max"
+                    )
+                ]
 
         if k == "latency":
             layout = go.Layout(
@@ -190,7 +219,8 @@ for k in all_pk:
                 ),
                 barmode='group',
                 yaxis=dict(
-                    title=chr(916)+" ms"
+                    title=chr(916)+" Hz",
+                    type='log'
                 ),
                 legend = dict(
                     tracegroupgap = 35,
@@ -206,7 +236,8 @@ for k in all_pk:
                 ),
                 barmode='group',
                 yaxis=dict(
-                    title=chr(916) + " ms"
+                    title=chr(916) + " Hz",
+                    type='log'
                 ),
                 legend = dict(
                     tracegroupgap = 35,
@@ -219,11 +250,12 @@ for k in all_pk:
                 # all "layout" attributes: /python/reference/#layout
                 xaxis=dict(  # all "layout's" "xaxis" attributes: /python/reference/#layout-xaxis
                     type="category",  # more about "layout's" "xaxis's" "title": /python/reference/#layout-xaxis-title
-                    title="Rate in ms"
+                    title="Rate in Hz"
                 ),
                 barmode='group',
                 yaxis=dict(
-                    title=chr(916) + " versions"
+                    title=chr(916) + " versions",
+                    type = 'log'
                 ),
                 legend = dict(
                     tracegroupgap = 35,
@@ -234,4 +266,4 @@ for k in all_pk:
         plotly.tools.set_credentials_file(username='jaroaro', api_key='aTsxDQbnrWO7mR4pHWBa')
 
         figure = go.Figure(data=data, layout=layout)
-        py.plot(figure, filename=k+str(t), image='png')
+        plotly.offline.plot(figure, filename=k+str(t))
